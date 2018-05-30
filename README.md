@@ -4,49 +4,41 @@
 
 ### Introduction
 
-I am a Computer Geek. I will be an Engineer soon. I have fun with computer things and Internet. I like to learn new tricks from Internet and implement them. I also like to play Table Tennis.
+I am a Computer Geek. I have fun with computer things and Internet. I like to learn new tricks from Internet and implement them. I also like to play Table Tennis. I believe in human readable code. I tend to write code that is more comforting to human eyes.
 
 ### Strengths
 
-I can get new ideas more rapidly than others. I only do work that is possible to complete within given time limit, If no option is there, I try my best to complete. In my free time, I tend to do some productive work or do some new things.
+I can get new ideas more rapidly than others. I only do work that is possible to complete within given time limit, If no option is there, I try my best to complete. In my free time, I tend to do some productive work or do some new things. I can remember the database structure and code flow which is very helpful in debugging.
 
 ### Weaknesses
 
-I can work under pressure but a little less productive than I work when I am not. I need a little free time for getting fresh after some hard work. In that free time.
+I hate to code in hurry. Though I refactor it later on, but coding in hurry results to unpredictable results which I like to avoid as much as possible.
 
-## Education
+## Technical
 
-### Secondary School Certificate
+### Programming Languages
 
-<pre>
-Shri L. G. Haria School, Jamnagar
-2011
-GSHSEB, Gujarat
-82.80%
-</pre>
+I have learnt most of NodeJStechnologies from udemy courses and most of the best practices from youtube. Technologies that I have worked on are php, Java, JSP and NodeJS. I like to code with NodeJS but always eager to learn new technologies.
 
-### Higher Secondary Certificate
+### Databases
 
-<pre>
-Shri L. G. Haria School, Jamnagar
-2013
-GSHSEB, Gujarat
-66.46%
-</pre>
+I have worked with MySQL, Microsoft SQL and MongoDB till now, but looking forward to try others also.
 
-### Bachelor Of Engineering
+### Best Practices
 
-<pre>
-Marwadi Education Foundation Group of Institutions, Rajkot
-(MEFGI)
-2013 - 2017
-GTU, Gujarat
-6.67 CPI
-</pre>
+After learning syntax of new technologies, it is necessary to follow the best practice. I dont only follow the best practices, but also find the reason behind why is it a best practice and then follow it keeping in mind the reason.
+
+### Coding Style
+
+Whenever starting a new Project (or working on an existing project), defining the styling guide is always good and it keeps the codebase clean. I like to follow the styling guide (if any) or define the one based on the prject.
+
+### Debugging
+
+For any project, debugging is a must have skill. I can debug very well as I like to explore how the code works.
 
 ## Projects
 
-## DAY_C
+### DAY_C
 
 Android App
 
@@ -55,7 +47,7 @@ DAY_C is an Android App that allows user to find some nearby places for finding 
 Languages: JAVA\
 IDE: Android Studio\
 
-## Hangman
+### Hangman
 
 Windows App(Desktop)
 
@@ -64,7 +56,7 @@ Hangman is a normal windows game but very compressed in size (64KB).
 Languages: .NET\
 IDE: Visual Studio\
 
-## ImageEditor
+### ImageEditor
 
 Windows App(Desktop)
 
@@ -74,7 +66,7 @@ Languages: .NET\
 IDE: Visual Studio\
 Libraries: Aforge photo editing dlls.\
 
-## PiMedia
+### PiMedia
 
 Home Media Server(Desktop)
 
@@ -86,18 +78,23 @@ IDE: NetBeans\
 Libraries: Google Drive - Python\
 Devices: Raspberry Pi.\
 
+### CETY
+
+Command line utility
+
+cety - short for convert email to yopmail - is a utility that can be used to convert the email address to yopmail addresses.
+
+Languages - NodeJS
+Database - MongoDB
+IDE - VS Code
+
 ## Other Details
 
 ### Skills
 
-  - Can do work on C, C++, C#.Net, Java, Python.
-  - Can type A to Z within 5 seconds with typing speed of 60 wpm.
-  - Can develop web pages using HTML, CSS, Javascript, php
-
-### Certificates
-
-  - Java from Spoken Tutorial
-  - Php and MySql from Spoken Tutorial
+  - Write clean, human readable code.
+  - Can type A to Z within 7 seconds with typing speed of 56 wpm.
+  - Can quickly remember things (related to code base).
 
 ### Languages
 
@@ -108,7 +105,7 @@ Devices: Raspberry Pi.\
 ### Hobbies
 
   - Learn New Tricks
-  - Create Blogs and Websites
+  - Create Blogs and Utilities
   - Play racing games
   - Watch TV Series
   - Bookmark Pages
