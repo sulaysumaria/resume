@@ -95,7 +95,7 @@ IDE - VS Code
 Worked as a trainee and Associate Technical Consultant. Main dole was to develop new feafures requested by client on a cross platform, hybrid app. Technologies used were IBM FEB, Worklight, Microsoft SQL, Java.\
 Worked for 6 months as Trainee and 5 months as Associate Technical Consultant. (2016 - 2017)
 
-### Zettabyte Ptr Ltd (Current)
+### Zettabyte Pte Ltd (Current)
 
 Working as a lead Backend Developer. Developing and maintaining REST API, consumed bh an Angular app for a foreign client. Technologies working on are NideJS and MongoDB.\
 Completed 6 months when writing this. (2017 - 2018)
