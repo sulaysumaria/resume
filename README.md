@@ -88,7 +88,7 @@ Languages - NodeJS
 Database - MongoDB
 IDE - VS Code
 
-## Experienc
+## Experience
 
 ### Streebo Inc
 
