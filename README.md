@@ -4,37 +4,45 @@
 
 ### Introduction
 
-I am a Computer Geek. I have fun with computer things and Internet. I like to learn new tricks from Internet and implement them. I also like to play Table Tennis. I believe in human readable code. I tend to write code that is more comforting to human eyes.
+- A Computer Geek. 
+- Have fun with computer things and Internet. 
+- Like to learn new tricks from Internet and implement them. 
+- Like to play Table Tennis. 
+- Believe in human readable code. 
+- Tend to write code that is more comforting to human eyes.
 
 ### Strengths
 
-I can get new ideas more rapidly than others. I only do work that is possible to complete within given time limit, If no option is there, I try my best to complete. In my free time, I tend to do some productive work or do some new things. I can remember the database structure and code flow which is very helpful in debugging.
+- Can get new ideas more rapidly than others. 
+- Only do work that is possible to complete within given time limit, If no option is there, then try my best to complete. 
+- In free time, Tend to do some productive work or do some new things. 
+- Can remember the database structure and code flow which is very helpful in debugging.
 
 ### Weaknesses
 
-I hate to code in hurry. Though I refactor it later on, but coding in hurry results to unpredictable results which I like to avoid as much as possible.
+- Hate to code in hurry. But refactor it later on, as coding in hurry results to unpredictable results.
 
 ## Technical
 
 ### Programming Languages
 
-I have learnt most of NodeJStechnologies from udemy courses and most of the best practices from youtube. Technologies that I have worked on are php, Java, JSP and NodeJS. I like to code with NodeJS but always eager to learn new technologies.
+Have learnt most of NodeJS technologies from udemy courses and most of the best practices from youtube. Technologies worked on are php, Java, JSP and NodeJS. Like to code with NodeJS but always eager to learn new technologies.
 
 ### Databases
 
-I have worked with MySQL, Microsoft SQL and MongoDB till now, but looking forward to try others also.
+Have worked with MySQL, Microsoft SQL and MongoDB till now, but looking forward to try others also.
 
 ### Best Practices
 
-After learning syntax of new technologies, it is necessary to follow the best practice. I dont only follow the best practices, but also find the reason behind why is it a best practice and then follow it keeping in mind the reason.
+After learning syntax of new technologies, it is necessary to follow the best practice. Dont only follow the best practices, but also find the reason behind why is it a best practice and then follow it keeping in mind the reason.
 
 ### Coding Style
 
-Whenever starting a new Project (or working on an existing project), defining the styling guide is always good and it keeps the codebase clean. I like to follow the styling guide (if any) or define the one based on the prject.
+Whenever starting a new Project (or working on an existing project), defining the styling guide is always good and it keeps the codebase clean. Like to follow the styling guide (if any) or define the one based on the prject.
 
 ### Debugging
 
-For any project, debugging is a must have skill. I can debug very well as I like to explore how the code works.
+For any project, debugging is a must have skill. Can debug very well as I like to explore how the code works.
 
 ## Projects
 
