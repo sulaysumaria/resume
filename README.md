@@ -4,18 +4,18 @@
 
 ### Introduction
 
-- A Computer Geek. 
-- Have fun with computer things and Internet. 
-- Like to learn new tricks from Internet and implement them. 
-- Like to play Table Tennis. 
-- Believe in human readable code. 
+- A Computer Geek.
+- Have fun with computer things and Internet.
+- Like to learn new tricks from Internet and implement them.
+- Like to play Table Tennis.
+- Believe in human readable code.
 - Tend to write code that is more comforting to human eyes.
 
 ### Strengths
 
-- Can get new ideas more rapidly than others. 
-- Only do work that is possible to complete within given time limit, If no option is there, then try my best to complete. 
-- In free time, Tend to do some productive work or do some new things. 
+- Can get new ideas more rapidly than others.
+- Only do work that is possible to complete within given time limit, If no option is there, then try my best to complete.
+- In free time, Tend to do some productive work or do some new things.
 - Can remember the database structure and code flow which is very helpful in debugging.
 
 ### Weaknesses
@@ -46,89 +46,46 @@ For any project, debugging is a must have skill. Can debug very well as I like t
 
 ## Projects
 
-### DAY_C
-
-Android App
-
-DAY_C is an Android App that allows user to find some nearby places for finding the food they like to eat.
-
-Languages: JAVA\
-IDE: Android Studio\
-
-### Hangman
-
-Windows App(Desktop)
-
-Hangman is a normal windows game but very compressed in size (64KB).
-
-Languages: .NET\
-IDE: Visual Studio\
-
-### ImageEditor
-
-Windows App(Desktop)
-
-ImageEditor is a software that allows user to Edit complete Image by applying some of the basic transformations.
-
-Languages: .NET\
-IDE: Visual Studio\
-Libraries: Aforge photo editing dlls.\
-
-### PiMedia
-
-Home Media Server(Desktop)
-
-PiMedia is a device that works as a media server as well as a download agent.
-
-Languages: Java - JSP, Php, Python, HTMl, CSS, JS, Shellscripting\
-Database: MySQL\
-IDE: NetBeans\
-Libraries: Google Drive - Python\
-Devices: Raspberry Pi.\
-
-### CETY
-
-Command line utility
-
-cety - short for convert email to yopmail - is a utility that can be used to convert the email address to yopmail addresses.
-
-Languages - NodeJS
-Database - MongoDB
-IDE - VS Code
+| Name                | Type                              | Description                                                                                                                  | Language                                               | IDE            | Database | Libraries               | Hardware       |
+| ------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | -------------- | -------- | ----------------------- | -------------- |
+| DAY_C               | Android App                       | DAY_C is an Android App that allows user to find some nearby places for finding the food they like to eat.                   | JAVA                                                   | Android Studio |          |                         |                |
+| Hangman             | Windows App(Desktop)              | Hangman is a normal windows game but very compressed in size (64KB).                                                         | .NET                                                   | Visual Studio  |          |                         |                |
+| ImageEditor         | Windows App(Desktop)              | ImageEditor is a software that allows user to Edit complete Image by applying some of the basic transformations.             | .NET                                                   | Visual Studio  |          | Aforge Image Processing |                |
+| PiMedia             | Home Media Server(Desktop)        | PiMedia is a device that works as a media server as well as a download agent.                                                | Java - JSP, Php, Python, HTMl, CSS, JS, Shellscripting | NetBeans       | MySQL    | Google Drive - Python   | Raspberry Pi 3 |
+| CETY                | Command line utility(NodeJS)      | cety - short for convert email to yopmail - is a utility that can be used to convert the email address to yopmail addresses. | NodeJS                                                 | VS Code        | MongoDB  |                         |                |
+| @secretboy/auth     | npm package                       | Easy authorization using passport.                                                                                           | TypeScript                                             | VS Code        |          | passport, mongoose      |                |
+| @secretboy/pdf      | npm package                       | Generate pdf using handlebars template engine.                                                                               | TypeScript                                             | VS Code        |          | handlebars, html-pdf    |                |
+| @secretboy/movetos3 | npm package, command line utility | Move your files from folder to S3 with ease.                                                                                 | TypeScript                                             | VS Code        |          | aws-sdk, commander      |                |
 
 ## Experience
 
-### Streebo Inc
-
-Worked as a trainee and Associate Technical Consultant. Main dole was to develop new feafures requested by client on a cross platform, hybrid app. Technologies used were IBM FEB, Worklight, Microsoft SQL, Java.\
-Worked for 6 months as Trainee and 5 months as Associate Technical Consultant. (2016 - 2017)
-
-### Zettabyte Pte Ltd (Current)
-
-Working as a lead Backend Developer. Developing and maintaining REST API, consumed bh an Angular app for a foreign client. Technologies working on are NideJS and MongoDB.\
-Completed 6 months when writing this. (2017 - 2018)
+| Company           | Joined On      | Left On        | Role                           | Technologies                            |
+| ----------------- | -------------- | -------------- | ------------------------------ | --------------------------------------- |
+| Streebo Inc       | 2nd Dec, 2016  | 14th Jun, 2017 | Trainee(Developer)             | IBM FEB, Worklight, Microsoft SQL, Java |
+| Streebo Inc       | 15th Jun, 2017 | 10th Nov, 2017 | Associate Technical Consultant | IBM FEB, Worklight, Microsoft SQL, Java |
+| Zettabyte Pte Ltd | 13th Nov, 2017 | Current        | Backend Developer              | NodeJS, Mongodb, AWS, Basic Angular 2+  |
 
 ## Other Details
 
 ### Skills
 
-  - Write clean, human readable code.
-  - Can type A to Z within 7 seconds with typing speed of 56 wpm.
-  - Can quickly remember things (related to code base).
+- Write clean, human readable code.
+- Can type A to Z within 7 seconds with typing speed of 56 wpm.
+- Can quickly remember things (related to code base).
 
 ### Languages
 
-  - Gujarati 
-  - Hindi
-  - English
+- Gujarati
+- Hindi
+- English
 
 ### Hobbies
 
-  - Learn New Tricks
-  - Create Blogs and Utilities
-  - Play racing games
-  - Watch TV Series
-  - Bookmark Pages
+- Learn New Tricks
+- Create Blogs and Utilities
+- Play racing games
+- Watch TV Series
+- Bookmark Pages
 
 ## Contact
 
