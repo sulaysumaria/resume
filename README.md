@@ -61,9 +61,9 @@ For any project, debugging is a must have skill. Can debug very well as I like t
 
 | Company           | Joined On      | Left On        | Role                           | Technologies                            |
 | ----------------- | -------------- | -------------- | ------------------------------ | --------------------------------------- |
-| Streebo Inc       | 2nd Dec, 2016  | 14th Jun, 2017 | Trainee(Developer)             | IBM FEB, Worklight, Microsoft SQL, Java |
-| Streebo Inc       | 15th Jun, 2017 | 10th Nov, 2017 | Associate Technical Consultant | IBM FEB, Worklight, Microsoft SQL, Java |
-| Zettabyte Pte Ltd | 13th Nov, 2017 | Current        | Backend Developer              | NodeJS, Mongodb, AWS, Basic Angular 2+  |
+| [Streebo Inc](https://www.streebo.com/)       | 2nd Dec, 2016  | 14th Jun, 2017 | Trainee(Developer)             | IBM FEB, Worklight, Microsoft SQL, Java |
+| [Streebo Inc](https://www.streebo.com/)       | 15th Jun, 2017 | 10th Nov, 2017 | Associate Technical Consultant | IBM FEB, Worklight, Microsoft SQL, Java |
+| [Zettabyte Pte Ltd](https://www.zettabyte.sg/) | 13th Nov, 2017 | Current        | Backend Developer              | NodeJS, Mongodb, AWS, Basic Angular 2+  |
 
 ## Other Details
 
