@@ -1,5 +1,5 @@
 # Sulay Sumaria
-View Online: [https://github.com/sulaysumaria/resume/blob/master/README.md](https://github.com/sulaysumaria/resume/blob/master/README.md)
+
 ## About Me
 
 ### Introduction
@@ -95,3 +95,5 @@ Moile:    +91 93091 02982
 Email:    sulaysumaria@gmail.com
 Website:  secretboy.xyz
 </pre>
+
+View This Resume online: [https://github.com/sulaysumaria/resume/blob/master/README.md](https://github.com/sulaysumaria/resume/blob/master/README.md)
