@@ -4,12 +4,9 @@
 
 ### Introduction
 
-- A Computer Geek.
-- Have fun with computer things and Internet.
-- Like to learn new tricks from Internet and implement them.
-- Like to play Table Tennis.
-- Believe in human readable code.
-- Tend to write code that is more comforting to human eyes.
+- A Computer Geek, have fun with computer things and Internet.
+- Like to learn new tricks from Internet and implement them, also to play Table Tennis.
+- Believe in human readable code, tend to write code that is more comforting to human eyes.
 
 ### Strengths
 
@@ -24,68 +21,44 @@
 
 ## Technical
 
-### Programming Languages
-
-Have learnt most of NodeJS technologies from udemy courses and most of the best practices from youtube. Technologies worked on are php, Java, JSP and NodeJS. Like to code with NodeJS but always eager to learn new technologies.
-
-### Databases
-
-Have worked with MySQL, Microsoft SQL and MongoDB till now, but looking forward to try others also.
-
-### Best Practices
-
-After learning syntax of new technologies, it is necessary to follow the best practice. Dont only follow the best practices, but also find the reason behind why is it a best practice and then follow it keeping in mind the reason.
-
-### Coding Style
-
-Whenever starting a new Project (or working on an existing project), defining the styling guide is always good and it keeps the codebase clean. Like to follow the styling guide (if any) or define the one based on the prject.
-
-### Debugging
-
-For any project, debugging is a must have skill. Can debug very well as I like to explore how the code works.
+- Technologies: [NodeJS](https://nodejs.org), [Angular 2+](https://angular.io/), [IBM Worklight](https://www.ibm.com/support/knowledgecenter/en/SSZH4A_6.0.0/com.ibm.worklight.getstart.doc/topics/c_overview.html), [Mobilefirst](https://www.ibm.com/mobilefirst), [IBM FEB](https://www.ibm.com/support/knowledgecenter/en/SS6KJL_8.6.0/Welcome/FEB_Welcome.html)
+- Languages: [Typescript](https://www.typescriptlang.org/), [Javascript](https://www.javascript.com/), [ES6](http://es6-features.org), [JAVA](https://www.java.com/), [Php](http://php.net/)
+- Databases: [MongoDB](https://www.mongodb.com/), [MySQL](https://www.mysql.com/), [MS SQL](https://www.microsoft.com/en-ie/sql-server/sql-server-2016)
+- Tools: [VS Code](https://code.visualstudio.com/), [PostMan](https://www.getpostman.com/), [Microsoft Office](https://products.office.com/en-us/get-started-with-office-2019), [Bitvise](https://www.bitvise.com/), [Studio 3T](https://studio3t.com/), [Github](https://github.com/), [Git Kraken](https://www.gitkraken.com/), [Google Chrome](https://www.google.com/chrome/)
+- Version Control System: [Git](https://git-scm.com/), [SVN](https://subversion.apache.org/)
+- Skills:
+  - Follow Best Practices, Standard coding style.
+  - Easy debugging.
+  - Design Database which is future compatible.
+  - Write clean, human readable code.
+  - Can quickly remember things (related to code base).
 
 ## Projects
 
-| Name                | Type                              | Description                                                                                                                  | Language                                               |
-| ------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| DAY_C               | Android App                       | DAY_C is an Android App that allows user to find some nearby places for finding the food they like to eat.                   | JAVA                                                   |
-| Hangman             | Windows App(Desktop)              | Hangman is a normal windows game but very compressed in size (64KB).                                                         | .NET                                                   |
-| ImageEditor         | Windows App(Desktop)              | ImageEditor is a software that allows user to Edit complete Image by applying some of the basic transformations.             | .NET                                                   |
-| PiMedia             | Home Media Server(Desktop)        | PiMedia is a device that works as a media server as well as a download agent.                                                | Java - JSP, Php, Python, HTMl, CSS, JS, Shellscripting |
-| [CETY](https://www.npmjs.com/package/cety)                | Command line utility(NodeJS)      | cety - short for convert email to yopmail - is a utility that can be used to convert the email address to yopmail addresses. | NodeJS                                                 |
-| [@secretboy/auth](https://www.npmjs.com/package/@secretboy/auth)     | npm package                       | Easy authorization using passport.                                                                                           | TypeScript                                             |
-| [@secretboy/pdf](https://www.npmjs.com/package/@secretboy/pdf)      | npm package                       | Generate pdf using handlebars template engine.                                                                               | TypeScript                                             | VS Code        |
-| [@secretboy/movetos3](https://www.npmjs.com/package/@secretboy/movetos3) | npm package, command line utility | Move your files from folder to S3 with ease.                                                                                 | TypeScript                                             |
+| Name                                                                           | Type                              | Description                                                                                                                  | Language                                               |
+| ------------------------------------------------------------------------------ | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| DAY_C                                                                          | Android App                       | DAY_C is an Android App that allows user to find some nearby places for finding the food they like to eat.                   | JAVA                                                   |
+| Hangman                                                                        | Windows App(Desktop)              | Hangman is a normal windows game but very compressed in size (64KB).                                                         | .NET                                                   |
+| ImageEditor                                                                    | Windows App(Desktop)              | ImageEditor is a software that allows user to Edit complete Image by applying some of the basic transformations.             | .NET                                                   |
+| PiMedia                                                                        | Home Media Server(Desktop)        | PiMedia is a device that works as a media server as well as a download agent.                                                | Java - JSP, Php, Python, HTMl, CSS, JS, Shellscripting |
+| [CETY](https://www.npmjs.com/package/cety)                                     | Command line utility(NodeJS)      | cety - short for convert email to yopmail - is a utility that can be used to convert the email address to yopmail addresses. | NodeJS                                                 |
+| [@secretboy/auth](https://www.npmjs.com/package/@secretboy/auth)               | npm package                       | Easy authorization using passport.                                                                                           | NodeJS, TypeScript                                     |
+| [@secretboy/pdf](https://www.npmjs.com/package/@secretboy/pdf)                 | npm package                       | Generate pdf using handlebars template engine.                                                                               | NodeJS, TypeScript                                     | VS Code |
+| [@secretboy/movetos3](https://www.npmjs.com/package/@secretboy/movetos3)       | npm package, command line utility | Move your files from folder to S3 with ease.                                                                                 | NodeJS, TypeScript                                     |
+| [@secretboy/express_app](https://www.npmjs.com/package/@secretboy/express_app) | npm package                       | Express app with some basic functionalities and options.                                                                     | NodeJS, TypeScript                                     |
 
 ## Experience
 
-| Company           | Joined On      | Left On        | Role                           | Technologies                            |
-| ----------------- | -------------- | -------------- | ------------------------------ | --------------------------------------- |
-| [Streebo Inc](https://www.streebo.com/)       | 2nd Dec, 2016  | 14th Jun, 2017 | Trainee(Developer)             | IBM FEB, Worklight, Microsoft SQL, Java |
-| [Streebo Inc](https://www.streebo.com/)       | 15th Jun, 2017 | 10th Nov, 2017 | Associate Technical Consultant | IBM FEB, Worklight, Microsoft SQL, Java |
+| Company                                        | Joined On      | Left On        | Role                           | Technologies                            |
+| ---------------------------------------------- | -------------- | -------------- | ------------------------------ | --------------------------------------- |
+| [Streebo Inc](https://www.streebo.com/)        | 2nd Dec, 2016  | 14th Jun, 2017 | Trainee(Developer)             | IBM FEB, Worklight, Microsoft SQL, Java |
+| [Streebo Inc](https://www.streebo.com/)        | 15th Jun, 2017 | 10th Nov, 2017 | Associate Technical Consultant | IBM FEB, Worklight, Microsoft SQL, Java |
 | [Zettabyte Pte Ltd](https://www.zettabyte.sg/) | 13th Nov, 2017 | Current        | Backend Developer              | NodeJS, Mongodb, AWS, Basic Angular 2+  |
 
 ## Other Details
 
-### Skills
-
-- Write clean, human readable code.
-- Can type A to Z within 7 seconds with typing speed of 56 wpm.
-- Can quickly remember things (related to code base).
-
-### Languages
-
-- Gujarati
-- Hindi
-- English
-
-### Hobbies
-
-- Learn New Tricks
-- Create Blogs and Utilities
-- Play racing games
-- Watch TV Series
-- Bookmark Pages
+- Languages: Gujarati, English, Hindi
+- Hobbies: Learn New Tricks, Create Blogs and Utilities, Play racing games, Watch TV Series, Bookmark Pages
 
 ## Contact
 
