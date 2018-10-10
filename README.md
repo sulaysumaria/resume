@@ -1,5 +1,7 @@
 # Sulay Sumaria
 
+[LinkedIn](https://www.linkedin.com/in/sulaysumaria/), [Github](https://github.com/sulaysumaria/), [Instagram](https://www.instagram.com/_sulay_sumaria_/)
+
 ## About Me
 
 ### Introduction
@@ -35,25 +37,28 @@
 
 ## Projects
 
-| Name                                                                           | Type                              | Description                                                                                                                  | Language                                               |
-| ------------------------------------------------------------------------------ | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| DAY_C                                                                          | Android App                       | DAY_C is an Android App that allows user to find some nearby places for finding the food they like to eat.                   | JAVA                                                   |
-| Hangman                                                                        | Windows App(Desktop)              | Hangman is a normal windows game but very compressed in size (64KB).                                                         | .NET                                                   |
-| ImageEditor                                                                    | Windows App(Desktop)              | ImageEditor is a software that allows user to Edit complete Image by applying some of the basic transformations.             | .NET                                                   |
-| PiMedia                                                                        | Home Media Server(Desktop)        | PiMedia is a device that works as a media server as well as a download agent.                                                | Java - JSP, Php, Python, HTMl, CSS, JS, Shellscripting |
-| [CETY](https://www.npmjs.com/package/cety)                                     | Command line utility(NodeJS)      | cety - short for convert email to yopmail - is a utility that can be used to convert the email address to yopmail addresses. | NodeJS                                                 |
-| [@secretboy/auth](https://www.npmjs.com/package/@secretboy/auth)               | npm package                       | Easy authorization using passport.                                                                                           | NodeJS, TypeScript                                     |
-| [@secretboy/pdf](https://www.npmjs.com/package/@secretboy/pdf)                 | npm package                       | Generate pdf using handlebars template engine.                                                                               | NodeJS, TypeScript                                     | VS Code |
-| [@secretboy/movetos3](https://www.npmjs.com/package/@secretboy/movetos3)       | npm package, command line utility | Move your files from folder to S3 with ease.                                                                                 | NodeJS, TypeScript                                     |
-| [@secretboy/express_app](https://www.npmjs.com/package/@secretboy/express_app) | npm package                       | Express app with some basic functionalities and options.                                                                     | NodeJS, TypeScript                                     |
+- DAY_C - Android App - DAY_C is an Android App that allows user to find some nearby places for finding the food they like to eat. - JAVA
+- Hangman - Windows App(Desktop) - Hangman is a normal windows game but very compressed in size (64KB). - .NET
+- ImageEditor - Windows App(Desktop) - ImageEditor is a software that allows user to Edit complete Image by applying some of the basic transformations. - .NET
+- PiMedia - Home Media Server(Desktop) - PiMedia is a device that works as a media server as well as a download agent. - Java - JSP, Php, Python, HTMl, CSS, JS, Shellscripting
+- [CETY](https://www.npmjs.com/package/cety) - Command line utility(NodeJS) - cety - short for convert email to yopmail - is a utility that can be used to convert the email address to yopmail addresses. - NodeJS
+- [@secretboy/auth](https://www.npmjs.com/package/@secretboy/auth) - npm package - Easy authorization using passport. - NodeJS, TypeScript
+- [@secretboy/pdf](https://www.npmjs.com/package/@secretboy/pdf) - npm package - Generate pdf using handlebars template engine. - NodeJS, TypeScript
+- [@secretboy/movetos3](https://www.npmjs.com/package/@secretboy/movetos3) - npm package, command line utility - Move your files from folder to S3 with ease. - NodeJS, TypeScript
+- [@secretboy/express_app](https://www.npmjs.com/package/@secretboy/express_app) - npm package - Express app with some basic functionalities and options. - NodeJS, TypeScript
+
+## Certificates
+
+- [Git Started with GitHub](https://www.udemy.com/certificate/UC-S96Z8L75/) - [Udemy](https://www.udemy.com/git-started-with-github/)
+- [Leveling up to ES6](https://www.udemy.com/certificate/UC-H5GWDQC5/) - [Udemy](https://www.udemy.com/leveling-up-to-es6/)
+- [MongooseJS Essentials - Learn MongoDB for Node.js](https://www.udemy.com/certificate/UC-NWR4MUYD/) - [Udemy](https://www.udemy.com/mongoosejs-essentials/)
+- [NodeJS CI/CD with AWS CodePipeline and Mocha - Zero to Hero](https://www.udemy.com/certificate/UC-GMW3PZQM/) - [Udemy](https://www.udemy.com/nodejs-cicd-aws-codepipeline-codebuild-mocha-zero-to-hero/)
 
 ## Experience
 
-| Company                                        | Joined On      | Left On        | Role                           | Technologies                            |
-| ---------------------------------------------- | -------------- | -------------- | ------------------------------ | --------------------------------------- |
-| [Streebo Inc](https://www.streebo.com/)        | 2nd Dec, 2016  | 14th Jun, 2017 | Trainee(Developer)             | IBM FEB, Worklight, Microsoft SQL, Java |
-| [Streebo Inc](https://www.streebo.com/)        | 15th Jun, 2017 | 10th Nov, 2017 | Associate Technical Consultant | IBM FEB, Worklight, Microsoft SQL, Java |
-| [Zettabyte Pte Ltd](https://www.zettabyte.sg/) | 13th Nov, 2017 | Current        | Backend Developer              | NodeJS, Mongodb, AWS, Basic Angular 2+  |
+- [Streebo Inc](https://www.streebo.com/) - 2nd Dec, 2016 - 14th Jun, 2017 - Trainee(Developer) - IBM FEB, Worklight, Microsoft SQL, Java
+- [Streebo Inc](https://www.streebo.com/) - 15th Jun, 2017 - 10th Nov, 2017 - Associate Technical Consultant - IBM FEB, Worklight, Microsoft SQL, Java
+- [Zettabyte Pte Ltd](https://www.zettabyte.sg/) - 13th Nov, 2017 - Current - Backend Developer - NodeJS, Mongodb, AWS, Basic Angular 2+ |
 
 ## Other Details
 
@@ -62,11 +67,7 @@
 
 ## Contact
 
-<pre>
-Moile:    +91 93091 02982
-          +91 78740 35749
-Email:    sulaysumaria@gmail.com
-Website:  secretboy.xyz
-</pre>
+- Moile: +91 93091 02982, +91 78740 35749
+- Email: sulaysumaria@gmail.com
 
 View This Resume online: [https://github.com/sulaysumaria/resume/blob/master/README.md](https://github.com/sulaysumaria/resume/blob/master/README.md)
