@@ -53,6 +53,7 @@
 - [Leveling up to ES6](https://www.udemy.com/certificate/UC-H5GWDQC5/) - [Udemy](https://www.udemy.com/leveling-up-to-es6/)
 - [MongooseJS Essentials - Learn MongoDB for Node.js](https://www.udemy.com/certificate/UC-NWR4MUYD/) - [Udemy](https://www.udemy.com/mongoosejs-essentials/)
 - [NodeJS CI/CD with AWS CodePipeline and Mocha - Zero to Hero](https://www.udemy.com/certificate/UC-GMW3PZQM/) - [Udemy](https://www.udemy.com/nodejs-cicd-aws-codepipeline-codebuild-mocha-zero-to-hero/)
+- [Intro to Linux Shell Scripting](https://www.udemy.com/certificate/UC-0BMYTNIN/) - [Udemy](https://www.udemy.com/linux-shell-scripting-free/)
 
 ## Experience
 
