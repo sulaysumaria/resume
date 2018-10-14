@@ -29,11 +29,8 @@
 - Tools: [VS Code](https://code.visualstudio.com/), [PostMan](https://www.getpostman.com/), [Microsoft Office](https://products.office.com/en-us/get-started-with-office-2019), [Bitvise](https://www.bitvise.com/), [Studio 3T](https://studio3t.com/), [Github](https://github.com/), [Git Kraken](https://www.gitkraken.com/), [Google Chrome](https://www.google.com/chrome/)
 - Version Control System: [Git](https://git-scm.com/), [SVN](https://subversion.apache.org/)
 - Skills:
-  - Follow Best Practices, Standard coding style.
-  - Easy debugging.
-  - Design Database which is future compatible.
-  - Write clean, human readable code.
-  - Can quickly remember things (related to code base).
+  - Write well-commented, human-readable, re-usable code following coding styles and using best practices.
+  - Design Database which can handle changing requirements.
 
 ## Projects
 
