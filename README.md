@@ -1,6 +1,6 @@
 # Sulay Sumaria
 
-[LinkedIn](https://www.linkedin.com/in/sulaysumaria/), [Github](https://github.com/sulaysumaria/), [Instagram](https://www.instagram.com/_sulay_sumaria_/)
+[LinkedIn](https://www.linkedin.com/in/sulaysumaria/), [Github](https://github.com/sulaysumaria/), [Instagram](https://www.instagram.com/_sulay_sumaria_/), [Blog](https://sulaysumaria.github.io/blog/)
 
 ## About Me
 
@@ -47,7 +47,7 @@
 ## Certificates
 
 - [Leveling up to ES6](https://www.udemy.com/certificate/UC-H5GWDQC5/) - [Udemy](https://www.udemy.com/leveling-up-to-es6/)
-- [Other Certificates](https://drive.google.com/open?id=14w4OUUJj9UxrfSVGww48Tzu6B6DpF7mP)
+- Other Certificates - [https://sulaysumaria.github.io/blog/certificates/](https://sulaysumaria.github.io/blog/certificates/)
 
 ## Experience
 
