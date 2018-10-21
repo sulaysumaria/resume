@@ -47,6 +47,7 @@
 ## Certificates
 
 - [Leveling up to ES6](https://www.udemy.com/certificate/UC-H5GWDQC5/) - [Udemy](https://www.udemy.com/leveling-up-to-es6/)
+- [AWS Serverless APIs & Apps - A Complete Introduction](https://www.udemy.com/certificate/UC-NO36U86L/) - [Udemy](https://www.udemy.com/aws-serverless-a-complete-introduction/)
 - Other Certificates - [https://sulaysumaria.github.io/blog/certificates/](https://sulaysumaria.github.io/blog/certificates/)
 
 ## Experience
