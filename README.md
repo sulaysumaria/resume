@@ -24,10 +24,11 @@
 ## Technical
 
 - Technologies: [NodeJS](https://nodejs.org), [Angular 2+](https://angular.io/), [IBM Worklight](https://www.ibm.com/support/knowledgecenter/en/SSZH4A_6.0.0/com.ibm.worklight.getstart.doc/topics/c_overview.html), [Mobilefirst](https://www.ibm.com/mobilefirst), [IBM FEB](https://www.ibm.com/support/knowledgecenter/en/SS6KJL_8.6.0/Welcome/FEB_Welcome.html)
-- Languages: [Typescript](https://www.typescriptlang.org/), [Javascript](https://www.javascript.com/), [ES6](http://es6-features.org), [JAVA](https://www.java.com/), [Php](http://php.net/)
+- Languages: [Typescript](https://www.typescriptlang.org/), [Javascript](https://www.javascript.com/), [ES6](http://es6-features.org), [Python](https://www.python.org/), [JAVA](https://www.java.com/), [Php](http://php.net/)
 - Databases: [MongoDB](https://www.mongodb.com/), [MySQL](https://www.mysql.com/), [MS SQL](https://www.microsoft.com/en-ie/sql-server/sql-server-2016)
 - Tools: [VS Code](https://code.visualstudio.com/), [PostMan](https://www.getpostman.com/), [Microsoft Office](https://products.office.com/en-us/get-started-with-office-2019), [Bitvise](https://www.bitvise.com/), [Studio 3T](https://studio3t.com/), [Github](https://github.com/), [Git Kraken](https://www.gitkraken.com/), [Google Chrome](https://www.google.com/chrome/)
 - Version Control System: [Git](https://git-scm.com/), [SVN](https://subversion.apache.org/)
+- Amazon AWS: EC2, Lambda, S3, API Gateway, Step Functions, SNS, SQS, SES, IAM, VPC, Route 53, CloudWatch
 - Skills:
   - Write well-commented, human-readable, re-usable code following coding styles and using best practices.
   - Design Database which can handle changing requirements.
@@ -46,15 +47,15 @@
 
 ## Certificates
 
-- [Leveling up to ES6](https://www.udemy.com/certificate/UC-H5GWDQC5/) - [Udemy](https://www.udemy.com/leveling-up-to-es6/)
-- [AWS Serverless APIs & Apps - A Complete Introduction](https://www.udemy.com/certificate/UC-NO36U86L/) - [Udemy](https://www.udemy.com/aws-serverless-a-complete-introduction/)
-- Other Certificates - [https://sulaysumaria.github.io/blog/certificates/](https://sulaysumaria.github.io/blog/certificates/)
+- [Leveling up to ES6](https://www.udemy.com/certificate/UC-H5GWDQC5/)
+- [AWS Serverless APIs & Apps - A Complete Introduction](https://www.udemy.com/certificate/UC-NO36U86L/)
 
 ## Experience
 
-- [Streebo Inc](https://www.streebo.com/) - 2nd Dec, 2016 - 14th Jun, 2017 - Trainee(Developer) - IBM FEB, Worklight, Microsoft SQL, Java
-- [Streebo Inc](https://www.streebo.com/) - 15th Jun, 2017 - 10th Nov, 2017 - Associate Technical Consultant - IBM FEB, Worklight, Microsoft SQL, Java
-- [Zettabyte Pte Ltd](https://www.zettabyte.sg/) - 13th Nov, 2017 - Current - Backend Developer - NodeJS, Mongodb, AWS, Basic Angular 2+ |
+- [Streebo Inc](https://www.streebo.com/) - Dec 2016 - Jun 2017 - Trainee(Developer) - IBM FEB, Worklight, Microsoft SQL, Java
+- [Streebo Inc](https://www.streebo.com/) - Jun 2017 - Nov 2017 - Associate Technical Consultant - IBM FEB, Worklight, Microsoft SQL, Java
+- [Zettabyte Pte Ltd](https://www.zettabyte.sg/) - Nov 2017 - Oct 2018 - Backend Developer - NodeJS, Mongodb, AWS, Basic Angular 2+
+- [Gymshim](http://gymshim.com/) - Oct 2018 - Current - AWS Serverless with NodeJS + Raspberry Pi with Python
 
 ## Other Details
 
