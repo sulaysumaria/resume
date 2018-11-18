@@ -1,6 +1,6 @@
 # Sulay Sumaria
 
-[LinkedIn](https://www.linkedin.com/in/sulaysumaria/), [Github](https://github.com/sulaysumaria/), [Instagram](https://www.instagram.com/_sulay_sumaria_/), [Blog](https://sulaysumaria.github.io/blog/)
+[LinkedIn](https://www.linkedin.com/in/sulaysumaria/), [Github](https://github.com/sulaysumaria/), [Instagram](https://www.instagram.com/_sulay_sumaria_/), [Blog](https://sulaysumaria.github.io/blog/), [Certificates](https://sulaysumaria.github.io/blog/certificates/)
 
 ## About Me
 
@@ -44,11 +44,6 @@
 - [@secretboy/pdf](https://www.npmjs.com/package/@secretboy/pdf) - npm package - Generate pdf using handlebars template engine. - NodeJS, TypeScript
 - [@secretboy/movetos3](https://www.npmjs.com/package/@secretboy/movetos3) - npm package, command line utility - Move your files from folder to S3 with ease. - NodeJS, TypeScript
 - [@secretboy/express_app](https://www.npmjs.com/package/@secretboy/express_app) - npm package - Express app with some basic functionalities and options. - NodeJS, TypeScript
-
-## Certificates
-
-- [Leveling up to ES6](https://www.udemy.com/certificate/UC-H5GWDQC5/)
-- [AWS Serverless APIs & Apps - A Complete Introduction](https://www.udemy.com/certificate/UC-NO36U86L/)
 
 ## Experience
 
