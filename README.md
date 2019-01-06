@@ -1,7 +1,5 @@
 # Sulay Sumaria
 
-[LinkedIn](https://www.linkedin.com/in/sulaysumaria/), [Github](https://github.com/sulaysumaria/), [Instagram](https://www.instagram.com/_sulay_sumaria_/), [Blog](https://sulaysumaria.github.io/blog/), [Certificates](https://sulaysumaria.github.io/blog/certificates/)
-
 ## About Me
 
 ### Introduction
@@ -24,11 +22,11 @@
 ## Technical
 
 - Technologies: [NodeJS](https://nodejs.org), [Angular 2+](https://angular.io/), [IBM Worklight](https://www.ibm.com/support/knowledgecenter/en/SSZH4A_6.0.0/com.ibm.worklight.getstart.doc/topics/c_overview.html), [Mobilefirst](https://www.ibm.com/mobilefirst), [IBM FEB](https://www.ibm.com/support/knowledgecenter/en/SS6KJL_8.6.0/Welcome/FEB_Welcome.html)
-- Languages: [Typescript](https://www.typescriptlang.org/), [Javascript](https://www.javascript.com/), [ES6](http://es6-features.org), [Python](https://www.python.org/), [JAVA](https://www.java.com/), [Php](http://php.net/)
-- Databases: [MongoDB](https://www.mongodb.com/), [MySQL](https://www.mysql.com/), [MS SQL](https://www.microsoft.com/en-ie/sql-server/sql-server-2016)
-- Tools: [VS Code](https://code.visualstudio.com/), [PostMan](https://www.getpostman.com/), [Microsoft Office](https://products.office.com/en-us/get-started-with-office-2019), [Bitvise](https://www.bitvise.com/), [Studio 3T](https://studio3t.com/), [Github](https://github.com/), [Git Kraken](https://www.gitkraken.com/), [Google Chrome](https://www.google.com/chrome/)
-- Version Control System: [Git](https://git-scm.com/), [SVN](https://subversion.apache.org/)
-- Amazon AWS: EC2, Lambda, S3, API Gateway, Step Functions, SNS, SQS, SES, IAM, VPC, Route 53, CloudWatch
+- Languages: [Typescript](https://www.typescriptlang.org/), [Javascript](https://www.javascript.com/), [ES6](http://es6-features.org), [Python](https://www.python.org/)
+- Databases: [MongoDB](https://www.mongodb.com/)
+- Tools: [VS Code](https://code.visualstudio.com/), [PostMan](https://www.getpostman.com/), [Bitvise](https://www.bitvise.com/), [Studio 3T](https://studio3t.com/), [Github](https://github.com/), [Git Kraken](https://www.gitkraken.com/), [Google Chrome](https://www.google.com/chrome/)
+- Version Control System: [Git](https://git-scm.com/)
+- Amazon AWS: [EC2](https://aws.amazon.com/ec2/), [Lambda](https://aws.amazon.com/lambda/), [S3](https://aws.amazon.com/s3/), [API Gateway](https://aws.amazon.com/api-gateway/), [Step Functions](https://aws.amazon.com/step-functions/), [SNS](https://aws.amazon.com/sns/), [SQS](https://aws.amazon.com/sqs/), [SES](https://aws.amazon.com/ses/)
 - Skills:
   - Write well-commented, human-readable, re-usable code following coding styles and using best practices.
   - Design Database which can handle changing requirements.
@@ -56,10 +54,17 @@
 
 - Languages: Gujarati, English, Hindi
 - Hobbies: Learn New Tricks, Create Blogs and Utilities, Play racing games, Watch TV Series, Bookmark Pages
+- Certificates: [http://blog.secretboy.xyz/certificates/](http://blog.secretboy.xyz/certificates/)
 
 ## Contact
 
 - Moile: +91 93091 02982, +91 78740 35749
 - Email: sulaysumaria@gmail.com
+- LinkedIn: [https://www.linkedin.com/in/sulaysumaria/](https://www.linkedin.com/in/sulaysumaria/)
+- Github: [https://github.com/sulaysumaria/](https://github.com/sulaysumaria/)
+- Instagram: [https://www.instagram.com/_sulay_sumaria_/](https://www.instagram.com/_sulay_sumaria_/)
+- Blog: [http://blog.secretboy.xyz/](http://blog.secretboy.xyz/)
 
 View This Resume online: [https://github.com/sulaysumaria/resume/blob/master/README.md](https://github.com/sulaysumaria/resume/blob/master/README.md)
+
+4.0.2
