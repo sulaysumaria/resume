@@ -58,15 +58,15 @@
 
 ## Contact
 
-- Moile: +91 93091 02982, +91 78740 35749
+- Telegram: @sulaysumaria
 - Email: sulaysumaria@gmail.com
 - LinkedIn: [https://www.linkedin.com/in/sulaysumaria/](https://www.linkedin.com/in/sulaysumaria/)
 - Github: [https://github.com/sulaysumaria/](https://github.com/sulaysumaria/)
-- Instagram: [https://www.instagram.com/_sulay_sumaria_/](https://www.instagram.com/_sulay_sumaria_/)
+- Instagram: [https://www.instagram.com/\_sulay_sumaria\_/](https://www.instagram.com/\_sulay_sumaria\_/)
 - Blog: [http://blog.secretboy.xyz/](http://blog.secretboy.xyz/)
 - CodersRank: [https://profile.codersrank.io/user/sulaysumaria/](https://profile.codersrank.io/user/sulaysumaria/)
 - HackerRank - [https://www.hackerrank.com/sulaysumaria/](https://www.hackerrank.com/sulaysumaria/)
 
 View This Resume online: [https://github.com/sulaysumaria/resume/blob/master/README.md](https://github.com/sulaysumaria/resume/blob/master/README.md)
 
-4.0.3
+4.0.4
