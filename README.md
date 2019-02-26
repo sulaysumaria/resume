@@ -54,7 +54,6 @@
 
 - Languages: Gujarati, English, Hindi
 - Hobbies: Learn New Tricks, Create Blogs and Utilities, Play racing games, Watch TV Series, Bookmark Pages
-- Certificates: [http://blog.secretboy.xyz/certificates/](http://blog.secretboy.xyz/certificates/)
 
 ## Contact
 
@@ -62,11 +61,10 @@
 - Email: sulaysumaria@gmail.com
 - LinkedIn: [https://www.linkedin.com/in/sulaysumaria/](https://www.linkedin.com/in/sulaysumaria/)
 - Github: [https://github.com/sulaysumaria/](https://github.com/sulaysumaria/)
-- Instagram: [https://www.instagram.com/\_sulay_sumaria\_/](https://www.instagram.com/\_sulay_sumaria\_/)
-- Blog: [http://blog.secretboy.xyz/](http://blog.secretboy.xyz/)
+- Blog: [http://sulaysumaria.com/](http://sulaysumaria.com/)
 - CodersRank: [https://profile.codersrank.io/user/sulaysumaria/](https://profile.codersrank.io/user/sulaysumaria/)
 - HackerRank - [https://www.hackerrank.com/sulaysumaria/](https://www.hackerrank.com/sulaysumaria/)
 
 View This Resume online: [https://github.com/sulaysumaria/resume/blob/master/README.md](https://github.com/sulaysumaria/resume/blob/master/README.md)
 
-4.0.4
+4.0.5
