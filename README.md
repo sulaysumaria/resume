@@ -33,6 +33,16 @@
   - Write well-commented, human-readable, re-usable code following coding styles and using best practices.
   - Design Database which can handle changing requirements.
 
+## Experience
+
+- [Streebo Inc](https://www.streebo.com/) - Dec 2016 - Jun 2017 - Trainee(Developer) - IBM FEB, Worklight, Microsoft SQL, Java
+- [Streebo Inc](https://www.streebo.com/) - Jun 2017 - Nov 2017 - Associate Technical Consultant - IBM FEB, Worklight, Microsoft SQL, Java
+- [Zettabyte Pte Ltd](https://www.zettabyte.sg/) - Nov 2017 - Oct 2018 - Backend Developer - NodeJS, Mongodb, AWS, Basic Angular 2+
+- [Gymshim](http://gymshim.com/) - Oct 2018 - Feb 2018 - AWS Serverless with NodeJS + Raspberry Pi with Python
+- [Aditech](http://adi-tech.co.uk/) - Feb 2018 - Current - Google Cloud Platform (NodeJS) + React Native (Android)
+
+<div class="page"></div>
+
 ## Projects
 
 - DAY_C - Android App - DAY_C is an Android App that allows user to find some nearby places for finding the food they like to eat. - JAVA
@@ -45,14 +55,6 @@
 - [@secretboy/movetos3](https://www.npmjs.com/package/@secretboy/movetos3) - npm package, command line utility - Move your files from folder to S3 with ease. - NodeJS, TypeScript
 - [@secretboy/express_app](https://www.npmjs.com/package/@secretboy/express_app) - npm package - Express app with some basic functionalities and options. - NodeJS, TypeScript
 - [tagMe](https://github.com/sulaysumaria/tags_generator_bot) - Telegram Bot - Generate hashtags from image.
-
-## Experience
-
-- [Streebo Inc](https://www.streebo.com/) - Dec 2016 - Jun 2017 - Trainee(Developer) - IBM FEB, Worklight, Microsoft SQL, Java
-- [Streebo Inc](https://www.streebo.com/) - Jun 2017 - Nov 2017 - Associate Technical Consultant - IBM FEB, Worklight, Microsoft SQL, Java
-- [Zettabyte Pte Ltd](https://www.zettabyte.sg/) - Nov 2017 - Oct 2018 - Backend Developer - NodeJS, Mongodb, AWS, Basic Angular 2+
-- [Gymshim](http://gymshim.com/) - Oct 2018 - Feb 2018 - AWS Serverless with NodeJS + Raspberry Pi with Python
-- [Aditech](http://adi-tech.co.uk/) - Feb 2018 - Current - Google Cloud Platform (NodeJS) + React Native (Android)
 
 ## Other Details
 
@@ -70,4 +72,6 @@
 
 View This Resume online: [https://github.com/sulaysumaria/resume/blob/master/README.md](https://github.com/sulaysumaria/resume/blob/master/README.md)
 
-5.0.0
+Download Pdf: [https://github.com/sulaysumaria/resume/raw/master/README.pdf](https://github.com/sulaysumaria/resume/raw/master/README.pdf)
+
+5.0.1
