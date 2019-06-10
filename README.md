@@ -21,10 +21,10 @@
 
 ## Technical
 
-- Technologies: [NodeJS](https://nodejs.org), [Flutter](https://flutter.dev/), [react-native](https://facebook.github.io/react-native/), [Angular 2+](https://angular.io/), [IBM Worklight](https://www.ibm.com/support/knowledgecenter/en/SSZH4A_6.0.0/com.ibm.worklight.getstart.doc/topics/c_overview.html), [Mobilefirst](https://www.ibm.com/mobilefirst), [IBM FEB](https://www.ibm.com/support/knowledgecenter/en/SS6KJL_8.6.0/Welcome/FEB_Welcome.html)
-- Languages: [Typescript](https://www.typescriptlang.org/), [Javascript](https://www.javascript.com/), [Dart](https://www.dartlang.org/), [ES6](http://es6-features.org), [Python](https://www.python.org/)
-- Databases: [MongoDB](https://www.mongodb.com/), [Spanner](https://cloud.google.com/spanner/), [BigQuery](https://cloud.google.com/bigquery/)
-- Tools: [VS Code](https://code.visualstudio.com/), [PostMan](https://www.getpostman.com/), [Bitvise](https://www.bitvise.com/), [Studio 3T](https://studio3t.com/), [Github](https://github.com/), [Git Kraken](https://www.gitkraken.com/), [Google Chrome](https://www.google.com/chrome/)
+- Technologies: [NodeJS](https://nodejs.org), [Flutter](https://flutter.dev/), [react-native](https://facebook.github.io/react-native/), [Angular 2+](https://angular.io/), [IBM Worklight](https://www.ibm.com/support/knowledgecenter/en/SSZH4A_6.0.0/com.ibm.worklight.getstart.doc/topics/c_overview.html), [Mobilefirst](https://www.ibm.com/mobilefirst), [IBM FEB](https://www.ibm.com/support/knowledgecenter/en/SS6KJL_8.6.0/Welcome/FEB_Welcome.html), [.Net Core](https://docs.microsoft.com/en-us/dotnet/welcome)
+- Languages: [Typescript](https://www.typescriptlang.org/), [Javascript](https://www.javascript.com/), [Dart](https://www.dartlang.org/), [ES6](http://es6-features.org), [Python](https://www.python.org/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/)
+- Databases: [MongoDB](https://www.mongodb.com/), [Spanner](https://cloud.google.com/spanner/), [BigQuery](https://cloud.google.com/bigquery/), [MSSQL](https://www.microsoft.com/en-us/sql-server/sql-server-2019)
+- Tools: [VS Code](https://code.visualstudio.com/), [PostMan](https://www.getpostman.com/), [Bitvise](https://www.bitvise.com/), [Studio 3T](https://studio3t.com/), [Github](https://github.com/), [Git Kraken](https://www.gitkraken.com/), [Google Chrome](https://www.google.com/chrome/), [draw.io](https://draw.io/)
 - Version Control System: [Git](https://git-scm.com/)
 - Amazon AWS: [EC2](https://aws.amazon.com/ec2/), [Lambda](https://aws.amazon.com/lambda/), [S3](https://aws.amazon.com/s3/), [API Gateway](https://aws.amazon.com/api-gateway/), [Step Functions](https://aws.amazon.com/step-functions/), [SNS](https://aws.amazon.com/sns/), [SQS](https://aws.amazon.com/sqs/), [SES](https://aws.amazon.com/ses/)
 - Google Cloud Platform: [Cloud Functions](https://cloud.google.com/functions/), [Spanner](https://cloud.google.com/spanner/), [Cloud Scheduler](https://cloud.google.com/scheduler/), [Pub/Sub](https://cloud.google.com/pubsub/), [App Engine](https://cloud.google.com/appengine/), [BigQuery](https://cloud.google.com/bigquery/)
@@ -38,8 +38,8 @@
 - [Streebo Inc](https://www.streebo.com/) - Dec 2016 - Jun 2017 - Trainee(Developer) - IBM FEB, Worklight, Microsoft SQL, Java
 - [Streebo Inc](https://www.streebo.com/) - Jun 2017 - Nov 2017 - Associate Technical Consultant - IBM FEB, Worklight, Microsoft SQL, Java
 - [Zettabyte Pte Ltd](https://www.zettabyte.sg/) - Nov 2017 - Oct 2018 - Backend Developer - NodeJS, Mongodb, AWS, Basic Angular 2+
-- [Gymshim](http://gymshim.com/) - Oct 2018 - Feb 2018 - AWS Serverless with NodeJS + Raspberry Pi with Python
-- [Aditech](http://adi-tech.co.uk/) - Feb 2018 - Current - Google Cloud Platform (NodeJS) + React Native (Android)
+- [Gymshim](http://gymshim.com/) - Oct 2018 - Feb 2019 - AWS Serverless with NodeJS + Raspberry Pi with Python
+- [Aditech](http://adi-tech.co.uk/) - Feb 2019 - May 2019 - Google Cloud Platform (NodeJS) + React Native (Android)
 
 <div class="page"></div>
 
@@ -67,11 +67,10 @@
 - Email: [sulaysumaria@gmail.com](mailto:sulaysumaria@gmail.com)
 - LinkedIn: [https://www.linkedin.com/in/sulaysumaria/](https://www.linkedin.com/in/sulaysumaria/)
 - Github: [https://github.com/sulaysumaria/](https://github.com/sulaysumaria/)
-- Blog: [http://sulaysumaria.com/](http://sulaysumaria.com/)
-- CodersRank: [https://profile.codersrank.io/user/sulaysumaria/](https://profile.codersrank.io/user/sulaysumaria/)
+- Blog: [https://sulaysumaria.github.io/](https://sulaysumaria.github.io/)
 
 View This Resume online: [https://github.com/sulaysumaria/resume/blob/master/README.md](https://github.com/sulaysumaria/resume/blob/master/README.md)
 
 Download Pdf: [https://github.com/sulaysumaria/resume/raw/master/README.pdf](https://github.com/sulaysumaria/resume/raw/master/README.pdf)
 
-5.0.1
+5.0.2
