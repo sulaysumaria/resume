@@ -10,7 +10,7 @@
 
 ### Strengths
 
-- Can get new ideas more rapidly than others.
+- Can Google very well.
 - In free time, tend to do some productive work or do some new things.
 - Can remember the database structure and code flow which is very helpful in debugging.
 
@@ -21,7 +21,7 @@
 
 ## Technical
 
-- Technologies: [NodeJS](https://nodejs.org), [Flutter](https://flutter.dev/), [react-native](https://facebook.github.io/react-native/), [Angular 2+](https://angular.io/), [IBM Worklight](https://www.ibm.com/support/knowledgecenter/en/SSZH4A_6.0.0/com.ibm.worklight.getstart.doc/topics/c_overview.html), [Mobilefirst](https://www.ibm.com/mobilefirst), [IBM FEB](https://www.ibm.com/support/knowledgecenter/en/SS6KJL_8.6.0/Welcome/FEB_Welcome.html), [.Net Core](https://docs.microsoft.com/en-us/dotnet/welcome)
+- Technologies: [NodeJS](https://nodejs.org), [GraphQL](https://graphql.org/), [Flutter](https://flutter.dev/), [IBM Worklight](https://www.ibm.com/support/knowledgecenter/en/SSZH4A_6.0.0/com.ibm.worklight.getstart.doc/topics/c_overview.html), [Mobilefirst](https://www.ibm.com/mobilefirst), [IBM FEB](https://www.ibm.com/support/knowledgecenter/en/SS6KJL_8.6.0/Welcome/FEB_Welcome.html), [.Net Core](https://docs.microsoft.com/en-us/dotnet/welcome)
 - Languages: [Typescript](https://www.typescriptlang.org/), [Javascript](https://www.javascript.com/), [Dart](https://www.dartlang.org/), [ES6](http://es6-features.org), [Python](https://www.python.org/), [C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/)
 - Databases: [MongoDB](https://www.mongodb.com/), [Spanner](https://cloud.google.com/spanner/), [BigQuery](https://cloud.google.com/bigquery/), [MSSQL](https://www.microsoft.com/en-us/sql-server/sql-server-2019)
 - Tools: [VS Code](https://code.visualstudio.com/), [PostMan](https://www.getpostman.com/), [Bitvise](https://www.bitvise.com/), [Studio 3T](https://studio3t.com/), [Github](https://github.com/), [Git Kraken](https://www.gitkraken.com/), [Google Chrome](https://www.google.com/chrome/), [draw.io](https://draw.io/)
@@ -73,4 +73,4 @@ View This Resume online: [https://github.com/sulaysumaria/resume/blob/master/REA
 
 Download Pdf: [https://github.com/sulaysumaria/resume/raw/master/README.pdf](https://github.com/sulaysumaria/resume/raw/master/README.pdf)
 
-5.0.2
+5.0.3
