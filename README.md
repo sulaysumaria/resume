@@ -40,6 +40,7 @@
 - [Zettabyte Pte Ltd](https://www.zettabyte.sg/) - Nov 2017 - Oct 2018 - Backend Developer - NodeJS, Mongodb, AWS, Basic Angular 2+
 - [Gymshim](http://gymshim.com/) - Oct 2018 - Feb 2019 - AWS Serverless with NodeJS + Raspberry Pi with Python
 - [Aditech](http://adi-tech.co.uk/) - Feb 2019 - May 2019 - Google Cloud Platform (NodeJS) + React Native (Android)
+- [Thinkwik](https://www.thinkwik.com/) - July 2019 - Current - NodeJS + AWS Serverless with NodeJS + Flutter
 
 <div class="page"></div>
 
@@ -63,7 +64,6 @@
 
 ## Contact
 
-- Telegram: @sulaysumaria
 - Email: [sulaysumaria@gmail.com](mailto:sulaysumaria@gmail.com)
 - LinkedIn: [https://www.linkedin.com/in/sulaysumaria/](https://www.linkedin.com/in/sulaysumaria/)
 - Github: [https://github.com/sulaysumaria/](https://github.com/sulaysumaria/)
@@ -73,4 +73,4 @@ View This Resume online: [https://github.com/sulaysumaria/resume/blob/master/REA
 
 Download Pdf: [https://github.com/sulaysumaria/resume/raw/master/README.pdf](https://github.com/sulaysumaria/resume/raw/master/README.pdf)
 
-5.0.4
+5.0.5
