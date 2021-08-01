@@ -13,5 +13,8 @@
   },
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
-  "editor.autoClosingDelete": "always"
+  "editor.autoClosingDelete": "always",
+  "[markdown]": {
+    "editor.defaultFormatter": "TomasHubelbauer.vscode-markdown-table-format"
+  }
 }
