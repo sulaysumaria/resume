@@ -50,7 +50,7 @@ Below are the technologies that I prefer to work on (but not limited to)
 
 - Spoken Languages: Gujarati, Hindi, English
 - Hobbies: Learn New Tricks, Create Blogs and Utilities, Play racing games, Watch Movies/TV Series, Bookmark Pages
-
+- Contact: +91 78740 35749
 [View This Resume online](https://github.com/sulaysumaria/resume/blob/master/README.md) | [Download Pdf](https://github.com/sulaysumaria/resume/raw/master/README.pdf) | [Blog](https://sulaysumaria.github.io/) | [Github](https://github.com/sulaysumaria/) | [LinkedIn](https://www.linkedin.com/in/sulaysumaria/)
 
 v5.0.7
