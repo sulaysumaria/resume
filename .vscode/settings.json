@@ -15,6 +15,6 @@
   "files.insertFinalNewline": true,
   "editor.autoClosingDelete": "always",
   "[markdown]": {
-    "editor.defaultFormatter": "TomasHubelbauer.vscode-markdown-table-format"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
