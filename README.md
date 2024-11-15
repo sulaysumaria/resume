@@ -1,4 +1,4 @@
-# Sulay Sumaria - sulay@thinkwik.com
+# Sulay Sumaria - sulaysumaria@gmail.com
 
 ## About Me
 
@@ -18,17 +18,16 @@
 
 ### Weaknesses
 
-- Don't like to code in hurry
 - Cannot accept spelling mistakes (specially in database)
 
 ## Technical
 
 Below are the technologies that I prefer to work on (but not limited to)
 
-- Technologies: [NodeJS](https://nodejs.org), [ReactJS](https://react.dev), [NextJS](https://nextjs.org)
+- Technologies: [NodeJS](https://nodejs.org), [ReactJS](https://react.dev), [NextJS](https://nextjs.org), [Langchain](https://js.langchain.com/docs/introduction/)
 - Languages: [Typescript](https://www.typescriptlang.org), [Javascript](https://www.javascript.com), [ES6](http://es6-features.org)
 - Frameworks: [ExpressJS](https://expressjs.com), [Serverless](https://www.serverless.com)
-- Databases: [MongoDB](https://www.mongodb.com)
+- Databases: [MongoDB](https://www.mongodb.com), [PostgreSQL](https://www.postgresql.org/)
 - Tools: [VS Code](https://code.visualstudio.com), [PostMan](https://www.getpostman.com), [Github](https://github.com), [draw.io](https://draw.io), [dbdiagram.io](https://dbdiagram.io)
 - Version Control System: [Git](https://git-scm.com)
 - Git GUIs: [Github](https://github.com), [Bitbucket](https://bitbucket.org)
@@ -40,11 +39,11 @@ Below are the technologies that I prefer to work on (but not limited to)
 
 | Company                                        | Time Period            | Designation                    | Technologies                                             |
 |------------------------------------------------|------------------------|--------------------------------|----------------------------------------------------------|
-| [Streebo Inc](https://www.streebo.com)        | Dec 2016 -<br>Nov 2017 | Associate Technical Consultant | IBM FEB, Worklight<br>Microsoft SQL, Java                |
-| [Zettabyte Pte Ltd](https://www.zettabyte.sg) | Nov 2017 -<br>Oct 2018 | Backend Developer              | NodeJS, Mongodb, AWS<br>Basic Angular 2+                 |
-| [Gymshim](http://gymshim.com)                 | Oct 2018 -<br>Feb 2019 | Software Developer             | AWS Serverless with NodeJS<br>Raspberry Pi with Python   |
-| [Aditech](http://adi-tech.co.uk)              | Feb 2019 -<br>May 2019 | Software Engineer              | Google Cloud Platform (NodeJS)<br>React Native (Android) |
-| [Thinkwik](https://www.thinkwik.com)          | Jul 2019 -<br>Current  | Sr. Project Manager            | NodeJS, ReactJS, NextJS, AWS                             |
+| [Streebo Inc](https://www.streebo.com)         | Dec 2016 -<br>Nov 2017 | Associate Technical Consultant | IBM FEB, Worklight<br>Microsoft SQL, Java                |
+| [Zettabyte Pte Ltd](https://www.zettabyte.sg)  | Nov 2017 -<br>Oct 2018 | Backend Developer              | NodeJS, Mongodb, AWS<br>Basic Angular 2+                 |
+| [Gymshim](http://gymshim.com)                  | Oct 2018 -<br>Feb 2019 | Software Developer             | AWS Serverless with NodeJS<br>Raspberry Pi with Python   |
+| [Aditech](http://adi-tech.co.uk)               | Feb 2019 -<br>May 2019 | Software Engineer              | Google Cloud Platform (NodeJS)<br>React Native (Android) |
+| [Thinkwik](https://www.thinkwik.com)           | Jul 2019 -<br>Current  | Sr. Project Manager            | NodeJS, ReactJS, NextJS, AWS                             |
 
 ## Other Details
 
@@ -52,6 +51,6 @@ Below are the technologies that I prefer to work on (but not limited to)
 - Hobbies: Learn New Tricks, Create Blogs and Utilities, Watch Movies/TV Series, Bookmark Pages
 - Contact: +91 78740 35749
 
-[View This Resume online](https://github.com/sulay-sumaria/resume/blob/master/README.md) | [Download Pdf](https://github.com/sulay-sumaria/resume/raw/master/README.pdf) | [Github](https://github.com/sulay-sumaria/) | [LinkedIn](https://www.linkedin.com/in/sulaysumaria/)
+[View This Resume online](https://github.com/sulaysumaria/resume/blob/master/README.md) | [Download Pdf](https://github.com/sulaysumaria/resume/raw/master/README.pdf) | [Github](https://github.com/sulaysumaria/) | [LinkedIn](https://www.linkedin.com/in/sulaysumaria/)
 
-v2023.05.29
+v2024.11.15
