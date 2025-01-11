@@ -20,8 +20,8 @@ Experienced IT Engineer with comprehensive expertise across all stages of the pr
 
 Below are the technologies that I prefer to work on (but not limited to)
 
-- Technologies: [NodeJS](https://nodejs.org), [ReactJS](https://react.dev), [NextJS](https://nextjs.org), [Langchain](https://js.langchain.com/docs/introduction/)
-- Languages: [Typescript](https://www.typescriptlang.org), [Javascript](https://www.javascript.com), [ES6](http://es6-features.org)
+- Technologies: [NodeJS](https://nodejs.org), [ReactJS](https://react.dev), [NextJS](https://nextjs.org), [Langchain](https://js.langchain.com/docs/introduction/), [GraphQL](https://graphql.org/), [Socket.io](https://socket.io/)
+- Languages: [Typescript](https://www.typescriptlang.org), [Javascript](https://www.javascript.com)
 - Frameworks: [ExpressJS](https://expressjs.com), [Serverless](https://www.serverless.com)
 - Databases: [MongoDB](https://www.mongodb.com), [PostgreSQL](https://www.postgresql.org/)
 - Tools: [VS Code](https://code.visualstudio.com), [PostMan](https://www.getpostman.com), [Github](https://github.com), [draw.io](https://draw.io), [dbdiagram.io](https://dbdiagram.io)
