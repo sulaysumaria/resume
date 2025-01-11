@@ -4,21 +4,17 @@
 
 ### Introduction
 
-- A Computer Geek, have fun with computer things and Internet
-- Like to learn new tricks from Internet and implement them
-- Believe in human readable code, tend to write code that is more comforting to human eyes
+Experienced IT Engineer with comprehensive expertise across all stages of the project lifecycle, including requirement gathering, effort estimation, milestone planning, task creation and assignment, development, testing, deployment, and client demonstrations. Proven ability to deliver high-quality solutions while ensuring seamless project execution and client satisfaction.
 
-### Strengths
+### Skills
 
-- Can Google well
-- Provide a near-accurate estimate for any new feature/requirements
-- Can remember the database structure and code flow which is very helpful in debugging
-- Refactor the code if written it hurry to achieve deadline
-- Define and follow linting and styling rules
-
-### Weaknesses
-
-- Cannot accept spelling mistakes (specially in database)
+- Expertise in understanding client requirements and delivering tailored solutions to address pain points effectively.
+- Skilled in providing near-accurate estimates for features and requirements.
+- Proficient in designing high-level architecture for robust and scalable solutions.
+- Experienced in task planning and resource management to ensure timely project delivery.
+- Developed and implemented SOPs to streamline workflows and enhance operational efficiency.
+- Guided teams in adhering to best practices, driving quality and consistency across deliverables.
+- Proactively introduce automation to optimize processes and reduce time spent on repetitive tasks.
 
 ## Technical
 
@@ -37,20 +33,19 @@ Below are the technologies that I prefer to work on (but not limited to)
 
 ## Experience
 
-| Company                                        | Time Period            | Designation                    | Technologies                                             |
-|------------------------------------------------|------------------------|--------------------------------|----------------------------------------------------------|
-| [Streebo Inc](https://www.streebo.com)         | Dec 2016 -<br>Nov 2017 | Associate Technical Consultant | IBM FEB, Worklight<br>Microsoft SQL, Java                |
-| [Zettabyte Pte Ltd](https://www.zettabyte.sg)  | Nov 2017 -<br>Oct 2018 | Backend Developer              | NodeJS, Mongodb, AWS<br>Basic Angular 2+                 |
-| [Gymshim](http://gymshim.com)                  | Oct 2018 -<br>Feb 2019 | Software Developer             | AWS Serverless with NodeJS<br>Raspberry Pi with Python   |
-| [Aditech](http://adi-tech.co.uk)               | Feb 2019 -<br>May 2019 | Software Engineer              | Google Cloud Platform (NodeJS)<br>React Native (Android) |
-| [Thinkwik](https://www.thinkwik.com)           | Jul 2019 -<br>Current  | Sr. Project Manager            | NodeJS, ReactJS, NextJS, AWS                             |
+| Company                                       | Time Period            | Designation                                  | Technologies                                             |
+| --------------------------------------------- | ---------------------- | -------------------------------------------- | -------------------------------------------------------- |
+| [Streebo Inc](https://www.streebo.com)        | Dec 2016 -<br>Nov 2017 | Associate Technical Consultant               | IBM FEB, Worklight<br>Microsoft SQL, Java                |
+| [Zettabyte Pte Ltd](https://www.zettabyte.sg) | Nov 2017 -<br>Oct 2018 | Backend Developer                            | NodeJS, Mongodb, AWS<br>Basic Angular 2+                 |
+| [Gymshim](http://gymshim.com)                 | Oct 2018 -<br>Feb 2019 | Software Developer                           | AWS Serverless with NodeJS<br>Raspberry Pi with Python   |
+| [Aditech](http://adi-tech.co.uk)              | Feb 2019 -<br>May 2019 | Software Engineer                            | Google Cloud Platform (NodeJS)<br>React Native (Android) |
+| [Thinkwik](https://www.thinkwik.com)          | Jul 2019 -<br>Current  | Sr. Software Engineer<br>Sr. Project Manager | NodeJS, ReactJS, NextJS, AWS                             |
 
 ## Other Details
 
 - Spoken Languages: Gujarati, English, Hindi
 - Hobbies: Learn New Tricks, Create Blogs and Utilities, Watch Movies/TV Series, Bookmark Pages
-- Contact: +91 78740 35749
 
 [View This Resume online](https://github.com/sulaysumaria/resume/blob/master/README.md) | [Github](https://github.com/sulaysumaria/) | [LinkedIn](https://www.linkedin.com/in/sulaysumaria/)
 
-v2024.11.15
+v2025.01.11
