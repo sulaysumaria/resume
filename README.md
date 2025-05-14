@@ -39,7 +39,8 @@ Below are the technologies that I prefer to work on (but not limited to)
 | [Zettabyte Pte Ltd](https://www.zettabyte.sg) | Nov 2017 -<br>Oct 2018 | Backend Developer                            | NodeJS, Mongodb, AWS<br>Basic Angular 2+                 |
 | [Gymshim](http://gymshim.com)                 | Oct 2018 -<br>Feb 2019 | Software Developer                           | AWS Serverless with NodeJS<br>Raspberry Pi with Python   |
 | [Aditech](http://adi-tech.co.uk)              | Feb 2019 -<br>May 2019 | Software Engineer                            | Google Cloud Platform (NodeJS)<br>React Native (Android) |
-| [Thinkwik](https://www.thinkwik.com)          | Jul 2019 -<br>Current  | Sr. Software Engineer<br>Sr. Project Manager | NodeJS, ReactJS, NextJS, AWS                             |
+| [Thinkwik](https://www.thinkwik.com)          | Jul 2019 -<br>Mar 2025 | Sr. Software Engineer<br>Sr. Project Manager | NodeJS, ReactJS, NextJS, AWS                             |
+| [Thirty11 Solutions](https://thirty11.com)    | Apr 2025 -<br>Current  | CEO & Founder                                |                                                          |
 
 ## Other Details
 
@@ -48,4 +49,4 @@ Below are the technologies that I prefer to work on (but not limited to)
 
 [View This Resume online](https://github.com/sulaysumaria/resume/blob/master/README.md) | [Github](https://github.com/sulaysumaria/) | [LinkedIn](https://www.linkedin.com/in/sulaysumaria/)
 
-v2025.01.11
+v2025.05.14
