@@ -35,13 +35,27 @@ Below are the technologies that I prefer to work on (but not limited to)
 
 ## Experience
 
-| Company                                       | Time Period            | Designation                                  | Technologies                                             |
-| --------------------------------------------- | ---------------------- | -------------------------------------------- | -------------------------------------------------------- |
-| [Streebo Inc](https://www.streebo.com)        | Dec 2016 -<br>Nov 2017 | Associate Technical Consultant               | IBM FEB, Worklight<br>Microsoft SQL, Java                |
-| [Zettabyte Pte Ltd](https://www.zettabyte.sg) | Nov 2017 -<br>Oct 2018 | Backend Developer                            | NodeJS, Mongodb, AWS<br>Basic Angular 2+                 |
-| [Gymshim](http://gymshim.com)                 | Oct 2018 -<br>Feb 2019 | Software Developer                           | AWS Serverless with NodeJS<br>Raspberry Pi with Python   |
-| [Aditech](http://adi-tech.co.uk)              | Feb 2019 -<br>May 2019 | Software Engineer                            | Google Cloud Platform (NodeJS)<br>React Native (Android) |
-| [Thinkwik](https://www.thinkwik.com)          | Jul 2019 -<br>Mar 2025 | Sr. Software Engineer<br>Sr. Project Manager | NodeJS, ReactJS, NextJS, AWS                             |
+### Associate Technical Consultant - [Streebo Inc](https://www.streebo.com) - Dec 2016 - Nov 2017
+
+Worked with IBM FEB, Worklight, Microsoft SQL, HTML, CSS, JavaScript, and Java. Contributed to the development of enterprise applications for a leading insurance provider in India, focusing on UI design, backend integration, and hybrid mobile solutions.
+
+### Backend Developer - [Zettabyte Pte Ltd](https://www.zettabyte.sg) - Nov 2017 - Oct 2018
+
+Handled backend development for a leading learning platform, utilizing Node.js and MongoDB to build scalable and efficient server-side functionalities. The application was hosted on AWS, where I also supported deployment and maintenance tasks. Additionally, I contributed to the front-end by identifying and fixing minor bugs in the Angular 2+ codebase, ensuring a smoother user experience.
+
+### Software Developer - [Gymshim](http://gymshim.com) - Oct 2018 - Feb 2019
+
+Developed a comprehensive system for gyms to manage memberships, attendance, and reporting. Utilized AWS serverless services including Lambda, SQS, SNS, and Rekognition to build scalable and efficient APIs. Also led the deployment of attendance devices at gym locations using Raspberry Pi, enabling member check-ins with offline support and seamless data sync.
+
+### Software Engineer - [Aditech](http://adi-tech.co.uk) - Feb 2019 - May 2019
+
+Designed and developed scalable RESTful APIs deployed on Google Cloud Platform (GCP), ensuring high performance and reliability. Additionally, built a cross-platform Android application using React Native that automatically analyzed users' spending patterns by integrating with financial data sources, offering insightful visualizations and budgeting assistance to enhance personal financial management.
+
+### Software Engineer/Project Manager - [Thinkwik](https://www.thinkwik.com) - Jul 2019 - Mar 2025
+
+As a Senior and Principal Software Engineer, I have worked extensively as a full-stack developer, leveraging a wide range of JavaScript technologies including Node.js, React.js, Next.js, TypeScript, Angular 2+, React Native, Web3, and Socket.IO. I have also worked on AI-integrated solutions using Langchain, enabling intelligent workflows and conversational interfaces. My responsibilities included designing and developing robust RESTful and GraphQL APIs, building and maintaining serverless architectures, creating internal utility tools, and managing the full development lifecycle—from coding to deployment. I played a key role in setting up and maintaining CI/CD pipelines, ensuring smooth and efficient delivery processes.
+
+In my role as a Technical Project Manager, I led cross-functional teams focused on Node.js and React.js, each consisting of over 8 members. I provided technical guidance, helped improve team productivity, and promoted the effective use of development and collaboration tools. Additionally, I was responsible for managing DevOps activities across AWS, GCP, and Azure, ensuring high availability, scalability, and performance of deployed applications. My leadership ensured timely delivery of quality software solutions aligned with business goals.
 
 ## Certifications
 
@@ -52,4 +66,4 @@ Below are the technologies that I prefer to work on (but not limited to)
 - Spoken Languages: Gujarati, English, Hindi
 - Hobbies: Learn New Tricks, Create Blogs and Utilities, Watch Movies/TV Series, Bookmark Pages
 
-v2025.05.27
+v2025.05.28
