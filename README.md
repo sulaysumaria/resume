@@ -59,7 +59,7 @@ In my role as a Technical Project Manager, I led cross-functional teams focused 
 
 ## Certifications
 
-- AWS Certified Cloud Practitioner
+- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/8af52bf1-c5a3-4803-ad55-46c8cdfd95eb)
 
 ## Other Details
 
