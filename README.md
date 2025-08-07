@@ -59,11 +59,12 @@ In my role as a Technical Project Manager, I led cross-functional teams focused 
 
 ## Certifications
 
-- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/8af52bf1-c5a3-4803-ad55-46c8cdfd95eb)
+- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/8af52bf1-c5a3-4803-ad55-46c8cdfd95eb) - Issued on May 24, 2025
+- [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/b35fb1da-1711-4c56-99e0-6622210d9de5) - Issued on August 06, 2025
 
 ## Other Details
 
 - Spoken Languages: Gujarati, English, Hindi
 - Hobbies: Learn New Tricks, Create Blogs and Utilities, Watch Movies/TV Series, Bookmark Pages
 
-v2025.05.28
+v2025.08.07
