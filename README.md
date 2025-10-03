@@ -41,7 +41,7 @@ Smart Facility Labs is a provider of advanced, cloud-based solutions for energy,
 - Responsibilities - Solution Architect, Full stack developer
 - Technologies - NodeJS, ReactJS, MySQL
 
-### SH-Tracker - (Private)
+### SH-Tracker - [Project info](https://thirty11.com/portfolio/sh-tracker/)
 
 A platform for employee time tracking and productivity monitoring, featuring automated activity logging, screenshots, and comprehensive performance reporting. Platform includes web panel and desktop apps for macOS, Windows and Linux
 
@@ -95,4 +95,4 @@ A public website for an organization offering tailored tech solutions, including
 - Spoken Languages: Gujarati, English, Hindi
 - Hobbies: Learn New Tricks, Create Blogs and Utilities, Watch Movies/TV Series, Bookmark Pages
 
-v2025.09.30
+v2025.10.03
