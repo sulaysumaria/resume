@@ -24,7 +24,7 @@ Below are the technologies that I prefer to work on (but not limited to)
 
 - Technologies: [NodeJS](https://nodejs.org), [ReactJS](https://react.dev), [NextJS](https://nextjs.org), [GraphQL](https://graphql.org/), [Socket.io](https://socket.io/)
 - Languages: [Typescript](https://www.typescriptlang.org), [Javascript](https://www.javascript.com)
-- Frameworks: [ExpressJS](https://expressjs.com), [Serverless](https://www.serverless.com), [MUI](https://mui.com/)
+- Frameworks: [ExpressJS](https://expressjs.com), [Serverless](https://www.serverless.com), [MUI](https://mui.com/), [shadcn](https://ui.shadcn.com/)
 - Databases: [MongoDB](https://www.mongodb.com), [PostgreSQL](https://www.postgresql.org/), [MySQL](https://www.mysql.com/)
 - Tools: [VS Code](https://code.visualstudio.com), [PostMan](https://www.getpostman.com), [Github](https://github.com), [draw.io](https://draw.io), [dbdiagram.io](https://dbdiagram.io)
 - Version Control System: [Git](https://git-scm.com)
@@ -95,4 +95,4 @@ A public website for an organization offering tailored tech solutions, including
 - Spoken Languages: Gujarati, English, Hindi
 - Hobbies: Learn New Tricks, Create Blogs and Utilities, Watch Movies/TV Series, Bookmark Pages
 
-v2025.10.03
+v2025.12.17
