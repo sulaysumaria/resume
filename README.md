@@ -34,7 +34,7 @@ Below are the technologies that I prefer to work on (but not limited to)
 
 ## Portfolio
 
-### SFM - [Link](https://app.smartfacilitylabs.com/)
+### SFL - [Link](https://app.smartfacilitylabs.com/)
 
 Smart Facility Labs is a provider of advanced, cloud-based solutions for energy, property, and asset management in commercial and residential facilities, enabling operational efficiency and real-time insights through technology integration. The platform supports everything from building management to safety and sustainability, streamlining processes for facility owners, managers, and stakeholders.
 
