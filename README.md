@@ -34,7 +34,7 @@ Below are the technologies that I prefer to work on (but not limited to)
 
 ## Portfolio
 
-### SFL - [Link](https://app.smartfacilitylabs.com/)
+### SFM - [Link](https://app.smartfacilitylabs.com/) - [Project info](https://thirty11.com/portfolio/smart-facility-labs/)
 
 Smart Facility Labs is a provider of advanced, cloud-based solutions for energy, property, and asset management in commercial and residential facilities, enabling operational efficiency and real-time insights through technology integration. The platform supports everything from building management to safety and sustainability, streamlining processes for facility owners, managers, and stakeholders.
 
@@ -48,30 +48,32 @@ A platform for employee time tracking and productivity monitoring, featuring aut
 - Responsibilities - Solution Architect, Full stack developer, DevOps
 - Technologies - NodeJS, ReactJS, MongoDB, MUI, Electron
 
-### DNS-Checker - (Private)
-
-A comprehensive DNS analysis platform that enables users to verify DNS record propagation, perform global lookups, and diagnose domain configuration issues.
-
-- Responsibilities - Solution Architect, Full stack developer, DevOps
-- Technologies - NodeJS, ReactJS, MongoDB
-
-### Email security score checker - [Link](https://thirty11.com/tools/email-security-score/)
-
-Get your Email Security Score in seconds. See how strong your email defenses are at a glance and take the first step toward safer, more secure communications.
-
-- Responsibilities - Solution Architect, Full stack developer, DevOps
-- Technologies - NodeJS, ReactJS, MongoDB
-
-### Thirty11 - Portal - (Private)
-
-A comprehensive web portal integrating Projects & Tasks, Time Sheets, GitHub workflows, Blog, Contacts, User, and Accounting management into a single unified system. Designed to streamline operations, enhance team productivity, and centralize business workflows.
-
-- Responsibilities - Solution Architect, Full stack developer, DevOps
-- Technologies - NodeJS, ReactJS, MongoDB
-
 ### Thirty11 - Website - [Link](https://thirty11.com)
 
 A public website for an organization offering tailored tech solutions, including DevOps, cloud optimization, SEO, and custom software development, to help businesses streamline operations and drive growth.
+
+- Responsibilities - Solution Architect, Full stack developer, DevOps
+- Technologies - NodeJS, ReactJS, MongoDB
+
+### Mini-app - Wifi File Share - [Link](https://thirty11.com/tools/wifi-file-share/)
+
+Share files instantly between devices on the same network. No upload, no cloud - direct peer-to-peer transfer.
+
+### Mini-app - AWS CUR Analyzer - [Link](https://thirty11.com/tools/aws-cur-analyzer/)
+
+Upload AWS CUR CSV files to analyze your cloud spending, view daily averages, and get cost breakdowns by service
+
+### Mini-app - DMARC Report Analyzer - [Link](https://thirty11.com/tools/dmarc-analyzer/)
+
+Upload and analyze DMARC XML reports to gain insights into your email authentication and deliverability
+
+### Mini-app - Email security score checker - [Link](https://thirty11.com/tools/email-security-score/)
+
+Get your Email Security Score in seconds. See how strong your email defenses are at a glance and take the first step toward safer, more secure communications.
+
+### DNS-Checker - (Private)
+
+A comprehensive DNS analysis platform that enables users to verify DNS record propagation, perform global lookups, and diagnose domain configuration issues.
 
 - Responsibilities - Solution Architect, Full stack developer, DevOps
 - Technologies - NodeJS, ReactJS, MongoDB
@@ -95,4 +97,4 @@ A public website for an organization offering tailored tech solutions, including
 - Spoken Languages: Gujarati, English, Hindi
 - Hobbies: Learn New Tricks, Create Blogs and Utilities, Watch Movies/TV Series, Bookmark Pages
 
-v2025.12.17
+v2026.01.27
