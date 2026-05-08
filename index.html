@@ -1,0 +1,1437 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sulay Sumaria - Engineer</title>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <style>
+      :root {
+        --bg: #0a0a0f;
+        --bg2: #111118;
+        --surface: #16161f;
+        --border: #2a2a3a;
+        --accent: #7c6df0;
+        --accent2: #a78bfa;
+        --text: #e2e2f0;
+        --muted: #8888aa;
+        --tag-bg: #1e1e2e;
+        --glow: rgba(124, 109, 240, 0.15);
+        --card-hover: rgba(124, 109, 240, 0.06);
+        --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      [data-theme='light'] {
+        --bg: #f5f5fa;
+        --bg2: #ededf5;
+        --surface: #ffffff;
+        --border: #d8d8e8;
+        --accent: #5b4fe0;
+        --accent2: #7c6df0;
+        --text: #1a1a2e;
+        --muted: #666688;
+        --tag-bg: #eeeef8;
+        --glow: rgba(91, 79, 224, 0.08);
+        --card-hover: rgba(91, 79, 224, 0.04);
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+        line-height: 1.6;
+        overflow-x: hidden;
+        transition:
+          background var(--transition),
+          color var(--transition);
+      }
+
+      /* ── Canvas ── */
+      #canvas {
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 0;
+        opacity: 0.35;
+      }
+
+      /* ── Nav ── */
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2.5rem;
+        background: rgba(10, 10, 15, 0.8);
+        backdrop-filter: blur(18px);
+        border-bottom: 1px solid var(--border);
+        transition:
+          background var(--transition),
+          border-color var(--transition);
+      }
+      [data-theme='light'] nav {
+        background: rgba(245, 245, 250, 0.85);
+      }
+
+      .nav-logo {
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        color: var(--accent);
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      }
+      .nav-logo span {
+        color: var(--muted);
+      }
+
+      .nav-right {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 1.5rem;
+        list-style: none;
+      }
+      .nav-links a {
+        font-size: 0.8rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      .nav-links a:hover {
+        color: var(--text);
+      }
+
+      .theme-toggle {
+        width: 2.2rem;
+        height: 2.2rem;
+        border-radius: 50%;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        transition:
+          background var(--transition),
+          border-color var(--transition),
+          transform 0.2s;
+      }
+      .theme-toggle:hover {
+        transform: rotate(20deg);
+      }
+
+      /* ── Wrapper ── */
+      .wrapper {
+        position: relative;
+        z-index: 1;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 2rem;
+      }
+
+      /* ── Hero ── */
+      #hero {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        padding-top: 5rem;
+      }
+
+      .hero-inner {
+        width: 100%;
+      }
+
+      .hero-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.75rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+        background: var(--tag-bg);
+        border: 1px solid var(--border);
+        padding: 0.35rem 0.85rem;
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeUp 0.6s forwards 0.2s;
+      }
+      .hero-tag::before {
+        content: '';
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--accent);
+        animation: pulse 2s infinite;
+      }
+
+      h1.name {
+        font-size: clamp(2.8rem, 7vw, 5.5rem);
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        line-height: 1.05;
+        margin-bottom: 1.2rem;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: fadeUp 0.7s forwards 0.35s;
+      }
+      h1.name .accent {
+        color: var(--accent);
+      }
+
+      .hero-sub {
+        font-size: clamp(1rem, 2vw, 1.15rem);
+        color: var(--muted);
+        max-width: 540px;
+        margin-bottom: 2.5rem;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeUp 0.7s forwards 0.5s;
+      }
+
+      .typewriter {
+        color: var(--accent2);
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.9em;
+      }
+      .typewriter::after {
+        content: '|';
+        animation: blink 1s infinite;
+      }
+
+      .hero-stats {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeUp 0.7s forwards 0.6s;
+      }
+      .hero-stat {
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+      }
+      .hero-stat-num {
+        font-size: 1.5rem;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        color: var(--text);
+        line-height: 1;
+      }
+      .hero-stat-label {
+        font-size: 0.7rem;
+        color: var(--muted);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      .hero-stat-divider {
+        width: 1px;
+        height: 2rem;
+        background: var(--border);
+      }
+
+      .hero-cta {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeUp 0.7s forwards 0.75s;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.7rem 1.6rem;
+        border-radius: 0.5rem;
+        font-size: 0.875rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        transition: all 0.2s;
+        cursor: pointer;
+      }
+      .btn-primary {
+        background: var(--accent);
+        color: #fff;
+        border: none;
+      }
+      .btn-primary:hover {
+        background: var(--accent2);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px var(--glow);
+      }
+      .btn-outline {
+        background: transparent;
+        color: var(--text);
+        border: 1px solid var(--border);
+      }
+      .btn-outline:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+        transform: translateY(-2px);
+      }
+
+      .hero-scroll {
+        position: fixed;
+        bottom: 2.5rem;
+        right: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--muted);
+        font-size: 0.6rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        opacity: 0;
+        animation: fadeUp 0.7s forwards 1.4s;
+        z-index: 10;
+      }
+      .scroll-line {
+        width: 1px;
+        height: 48px;
+        background: linear-gradient(to bottom, var(--accent), transparent);
+        animation: scrollLine 2s ease-in-out infinite;
+      }
+
+      /* ── Section base ── */
+      section {
+        padding: 6rem 0;
+      }
+
+      .section-label {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 0.7rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 3rem;
+        font-family: 'JetBrains Mono', monospace;
+      }
+      .section-label::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: var(--border);
+      }
+
+      h2.section-title {
+        font-size: clamp(1.8rem, 4vw, 2.8rem);
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        margin-bottom: 0.5rem;
+      }
+
+      /* ── Fade-in reveal ── */
+      .reveal {
+        opacity: 0;
+        transform: translateY(30px);
+        transition:
+          opacity 0.7s ease,
+          transform 0.7s ease;
+      }
+      .reveal.visible {
+        opacity: 1;
+        transform: none;
+      }
+
+      /* ── Tech grid ── */
+      .tech-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 1rem;
+      }
+
+      .tech-card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 0.75rem;
+        padding: 1.25rem 1.5rem;
+        transition:
+          border-color 0.2s,
+          box-shadow 0.2s,
+          background 0.2s;
+      }
+      .tech-card:hover {
+        border-color: var(--accent);
+        box-shadow:
+          0 0 0 1px var(--accent),
+          0 8px 32px var(--glow);
+        background: var(--card-hover);
+      }
+
+      .tech-card-label {
+        font-size: 0.65rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+        font-family: monospace;
+        margin-bottom: 0.75rem;
+      }
+
+      .tech-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+      }
+      .tag {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.65rem;
+        border-radius: 0.3rem;
+        background: var(--tag-bg);
+        border: 1px solid var(--border);
+        color: var(--muted);
+        transition:
+          color 0.2s,
+          border-color 0.2s;
+      }
+      .tag:hover {
+        color: var(--accent2);
+        border-color: var(--accent);
+      }
+
+      /* ── Projects ── */
+      .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.25rem;
+      }
+
+      .project-card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 1rem;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        text-decoration: none;
+        color: inherit;
+        transition:
+          border-color 0.25s,
+          transform 0.25s,
+          box-shadow 0.25s;
+        position: relative;
+        overflow: hidden;
+      }
+      .project-card::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(135deg, var(--glow), transparent 60%);
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+      .project-card:hover::before {
+        opacity: 1;
+      }
+      .project-card:hover {
+        border-color: var(--accent);
+        transform: translateY(-4px);
+        box-shadow: 0 16px 40px var(--glow);
+      }
+
+      .project-card-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
+      .project-name {
+        font-weight: 700;
+        font-size: 1rem;
+        color: var(--text);
+      }
+      .project-arrow {
+        font-size: 1.1rem;
+        color: var(--muted);
+        transition:
+          color 0.2s,
+          transform 0.2s;
+      }
+      .project-card:hover .project-arrow {
+        color: var(--accent);
+        transform: translate(3px, -3px);
+      }
+
+      .project-desc {
+        font-size: 0.83rem;
+        color: var(--muted);
+        line-height: 1.5;
+        flex: 1;
+      }
+
+      .project-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35rem;
+        margin-top: auto;
+      }
+
+      /* ── Experience ── */
+      .timeline {
+        position: relative;
+        padding-left: 1.5rem;
+      }
+      .timeline::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0.6rem;
+        bottom: 0;
+        width: 1px;
+        background: linear-gradient(to bottom, var(--accent), transparent);
+      }
+
+      .timeline-item {
+        position: relative;
+        padding-bottom: 2.5rem;
+      }
+      .timeline-item:last-child {
+        padding-bottom: 0;
+      }
+      .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: -1.5rem;
+        top: 0.55rem;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--accent);
+        box-shadow:
+          0 0 0 3px var(--bg),
+          0 0 0 4px var(--accent);
+        transition: box-shadow var(--transition);
+      }
+      .timeline-item:hover::before {
+        box-shadow:
+          0 0 0 3px var(--bg),
+          0 0 0 4px var(--accent2),
+          0 0 12px var(--accent);
+      }
+
+      .timeline-company {
+        font-weight: 700;
+        font-size: 1.05rem;
+        color: var(--text);
+      }
+      .timeline-company a {
+        color: inherit;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      .timeline-company a:hover {
+        color: var(--accent);
+      }
+
+      .timeline-role {
+        font-size: 0.85rem;
+        color: var(--accent2);
+        font-family: monospace;
+        margin-top: 0.15rem;
+      }
+
+      .timeline-date {
+        font-size: 0.75rem;
+        color: var(--muted);
+        margin-top: 0.1rem;
+        letter-spacing: 0.04em;
+      }
+      .timeline-blurb {
+        font-size: 0.83rem;
+        color: var(--muted);
+        margin-top: 0.5rem;
+        line-height: 1.6;
+        max-width: 560px;
+      }
+
+      /* ── Certs ── */
+      .certs-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1rem;
+      }
+
+      .cert-card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 0.75rem;
+        padding: 1.25rem 1.5rem;
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        text-decoration: none;
+        color: inherit;
+        transition:
+          border-color 0.2s,
+          box-shadow 0.2s;
+      }
+      .cert-card:hover {
+        border-color: var(--accent);
+        box-shadow: 0 4px 20px var(--glow);
+      }
+      .cert-icon {
+        font-size: 1.6rem;
+        flex-shrink: 0;
+      }
+      .cert-name {
+        font-weight: 600;
+        font-size: 0.9rem;
+      }
+      .cert-date {
+        font-size: 0.75rem;
+        color: var(--muted);
+        margin-top: 0.2rem;
+      }
+
+      /* ── About blurb ── */
+      .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: start;
+      }
+      @media (max-width: 640px) {
+        .about-grid {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+      }
+
+      .about-text p {
+        color: var(--muted);
+        margin-bottom: 1rem;
+        font-size: 0.95rem;
+        line-height: 1.8;
+      }
+      .about-text p:last-child {
+        margin-bottom: 0;
+      }
+
+      .about-facts {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+      .fact {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.75rem 1rem;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 0.5rem;
+        font-size: 0.85rem;
+        color: var(--muted);
+        transition: border-color 0.2s;
+      }
+      .fact:hover {
+        border-color: var(--accent);
+      }
+      .fact-icon {
+        font-size: 1rem;
+        flex-shrink: 0;
+      }
+      .fact strong {
+        color: var(--text);
+      }
+
+      /* ── Lucide icons ── */
+      .icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+      .icon svg {
+        display: block;
+      }
+      .fact-icon svg {
+        width: 1rem;
+        height: 1rem;
+        color: var(--accent);
+      }
+      .cert-icon svg {
+        width: 1.4rem;
+        height: 1.4rem;
+        color: var(--accent);
+      }
+      .project-arrow svg {
+        width: 1rem;
+        height: 1rem;
+      }
+      .btn svg {
+        width: 0.9rem;
+        height: 0.9rem;
+      }
+      .theme-toggle svg {
+        width: 1rem;
+        height: 1rem;
+      }
+
+      /* ── Footer ── */
+      footer {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        padding: 3rem 2rem;
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 0.8rem;
+      }
+      footer a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      footer a:hover {
+        color: var(--accent2);
+      }
+
+      /* ── Animations ── */
+      @keyframes fadeUp {
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.5;
+          transform: scale(0.8);
+        }
+      }
+      @keyframes scrollLine {
+        0% {
+          transform: scaleY(0);
+          transform-origin: top;
+        }
+        49% {
+          transform: scaleY(1);
+          transform-origin: top;
+        }
+        50% {
+          transform: scaleY(1);
+          transform-origin: bottom;
+        }
+        100% {
+          transform: scaleY(0);
+          transform-origin: bottom;
+        }
+      }
+
+      /* ── Responsive ── */
+      @media (max-width: 640px) {
+        nav {
+          padding: 0.875rem 1.25rem;
+        }
+        .nav-links {
+          display: none;
+        }
+        .wrapper {
+          padding: 0 1.25rem;
+        }
+        .tech-grid,
+        .projects-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+
+    <!-- Nav -->
+    <nav>
+      <div class="nav-logo">SS<span>.</span></div>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#tech">Stack</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+          <i data-lucide="sun" id="iconSun"></i>
+          <i data-lucide="moon" id="iconMoon" style="display: none"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="wrapper">
+        <div class="hero-inner">
+          <div class="hero-tag">Open to freelance &amp; contract</div>
+          <h1 class="name">Sulay<br /><span class="accent">Sumaria</span></h1>
+          <p class="hero-sub">
+            Full-stack engineer &amp; solution architect with 9+ years shipping production software.<br />
+            I build <span class="typewriter" id="typewriter"></span>
+          </p>
+          <div class="hero-stats">
+            <div class="hero-stat"><span class="hero-stat-num">9+</span><span class="hero-stat-label">Years exp.</span></div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat"><span class="hero-stat-num">10+</span><span class="hero-stat-label">Products shipped</span></div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat"><span class="hero-stat-num">3×</span><span class="hero-stat-label">AWS Certified</span></div>
+          </div>
+          <div class="hero-cta">
+            <a href="https://www.linkedin.com/in/sulaysumaria/" target="_blank" rel="noopener" class="btn btn-primary"
+              >LinkedIn <i data-lucide="arrow-up-right"></i
+            ></a>
+            <a href="https://www.credly.com/users/sulaysumaria/" target="_blank" rel="noopener" class="btn btn-outline"
+              >Certifications <i data-lucide="arrow-up-right"></i
+            ></a>
+            <a href="mailto:sulaysumaria@gmail.com" class="btn btn-outline">Say hello <i data-lucide="mail"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fixed scroll indicator -->
+    <div class="hero-scroll" id="heroScroll">
+      <div class="scroll-line"></div>
+      scroll
+    </div>
+
+    <!-- About -->
+    <section id="about">
+      <div class="wrapper">
+        <div class="section-label reveal">// about</div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm a full-stack engineer who has spent 9+ years going from zero to production - writing code, designing architecture,
+              managing teams, and keeping clients happy, sometimes all in the same week.
+            </p>
+            <p>
+              My sweet spot is the space between backend complexity and a clean frontend experience. I've led builds at agencies, consulted
+              on cloud migrations, and shipped solo side projects used by real people. I don't over-engineer: the simplest thing that works
+              at scale is usually the right answer.
+            </p>
+            <p>Currently freelancing - available for product builds, architecture reviews, and long-term contracts.</p>
+          </div>
+          <div class="about-facts reveal" style="transition-delay: 0.15s">
+            <div class="fact">
+              <span class="fact-icon icon"><i data-lucide="languages"></i></span
+              ><span><strong>Languages:</strong> Gujarati, English, Hindi</span>
+            </div>
+            <div class="fact">
+              <span class="fact-icon icon"><i data-lucide="cloud"></i></span
+              ><span><strong>AWS Certified</strong> AI Practitioner, Cloud Practitioner &amp; Solutions Architect</span>
+            </div>
+            <div class="fact">
+              <span class="fact-icon icon"><i data-lucide="monitor"></i></span
+              ><span><strong>Prefers:</strong> macOS → Linux → Windows</span>
+            </div>
+            <div class="fact">
+              <span class="fact-icon icon"><i data-lucide="zap"></i></span
+              ><span><strong>Loves:</strong> Automation, side projects, building tools</span>
+            </div>
+            <div class="fact">
+              <span class="fact-icon icon"><i data-lucide="calendar"></i></span
+              ><span><strong>Available:</strong> Freelance / Contract - Apr 2025–present</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech -->
+    <section id="tech">
+      <div class="wrapper">
+        <div class="section-label reveal">// stack</div>
+        <div class="tech-grid">
+          <div class="tech-card reveal" style="transition-delay: 0s">
+            <div class="tech-card-label">Core Technologies</div>
+            <div class="tech-tags">
+              <span class="tag">NodeJS</span>
+              <span class="tag">ReactJS</span>
+              <span class="tag">NextJS</span>
+              <span class="tag">GraphQL</span>
+              <span class="tag">Socket.io</span>
+            </div>
+          </div>
+          <div class="tech-card reveal" style="transition-delay: 0.08s">
+            <div class="tech-card-label">Languages</div>
+            <div class="tech-tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+          <div class="tech-card reveal" style="transition-delay: 0.16s">
+            <div class="tech-card-label">Frameworks &amp; UI</div>
+            <div class="tech-tags">
+              <span class="tag">ExpressJS</span>
+              <span class="tag">Serverless</span>
+              <span class="tag">MUI</span>
+              <span class="tag">shadcn</span>
+              <span class="tag">Electron</span>
+            </div>
+          </div>
+          <div class="tech-card reveal" style="transition-delay: 0.24s">
+            <div class="tech-card-label">Databases</div>
+            <div class="tech-tags">
+              <span class="tag">MongoDB</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+          <div class="tech-card reveal" style="transition-delay: 0.32s">
+            <div class="tech-card-label">AWS Services</div>
+            <div class="tech-tags">
+              <span class="tag">EC2</span>
+              <span class="tag">Lambda</span>
+              <span class="tag">S3</span>
+              <span class="tag">SQS</span>
+              <span class="tag">SES</span>
+              <span class="tag">CloudFront</span>
+              <span class="tag">ECS</span>
+              <span class="tag">ELB</span>
+              <span class="tag">Bedrock</span>
+            </div>
+          </div>
+          <div class="tech-card reveal" style="transition-delay: 0.4s">
+            <div class="tech-card-label">CI/CD &amp; Tools</div>
+            <div class="tech-tags">
+              <span class="tag">GitHub Actions</span>
+              <span class="tag">Git</span>
+              <span class="tag">n8n</span>
+              <span class="tag">draw.io</span>
+              <span class="tag">dbdiagram.io</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="wrapper">
+        <div class="section-label reveal">// projects</div>
+        <div class="projects-grid">
+          <a
+            href="https://app.smartfacilitylabs.com/"
+            target="_blank"
+            rel="noopener"
+            class="project-card reveal"
+            style="transition-delay: 0s"
+          >
+            <div class="project-card-top">
+              <span class="project-name">Smart Facility Labs</span>
+              <span class="project-arrow icon"><i data-lucide="arrow-up-right"></i></span>
+            </div>
+            <p class="project-desc">
+              Multi-tenant SaaS for facility managers - handles energy monitoring, asset tracking, and compliance reporting across
+              commercial buildings. Built the full stack from schema design to live dashboards.
+            </p>
+            <div class="project-meta">
+              <span class="tag">NodeJS</span><span class="tag">ReactJS</span><span class="tag">MySQL</span>
+              <span class="tag">Architect</span><span class="tag">Full Stack</span>
+            </div>
+          </a>
+
+          <a
+            href="https://thirty11.com/portfolio/sh-tracker/"
+            target="_blank"
+            rel="noopener"
+            class="project-card reveal"
+            style="transition-delay: 0.1s"
+          >
+            <div class="project-card-top">
+              <span class="project-name">SH-Tracker</span>
+              <span class="project-arrow icon"><i data-lucide="arrow-up-right"></i></span>
+            </div>
+            <p class="project-desc">
+              Cross-platform desktop app (Electron) + web admin panel for employee productivity tracking. Automated activity logging,
+              screenshot capture, and PDF reporting - shipped on macOS, Windows, and Linux.
+            </p>
+            <div class="project-meta">
+              <span class="tag">Electron</span><span class="tag">NodeJS</span><span class="tag">MongoDB</span>
+              <span class="tag">Architect</span><span class="tag">DevOps</span>
+            </div>
+          </a>
+
+          <a href="https://thirty11.com" target="_blank" rel="noopener" class="project-card reveal" style="transition-delay: 0.2s">
+            <div class="project-card-top">
+              <span class="project-name">Thirty11</span>
+              <span class="project-arrow icon"><i data-lucide="arrow-up-right"></i></span>
+            </div>
+            <p class="project-desc">
+              Designed and built the marketing site for a boutique tech agency. Full ownership: architecture, development, SEO, and DevOps.
+              Still running in production.
+            </p>
+            <div class="project-meta">
+              <span class="tag">NodeJS</span><span class="tag">ReactJS</span><span class="tag">MongoDB</span>
+              <span class="tag">DevOps</span>
+            </div>
+          </a>
+
+          <a
+            href="https://thirty11.com/tools/wifi-file-share/"
+            target="_blank"
+            rel="noopener"
+            class="project-card reveal"
+            style="transition-delay: 0.3s"
+          >
+            <div class="project-card-top">
+              <span class="project-name">WiFi File Share</span>
+              <span class="project-arrow icon"><i data-lucide="arrow-up-right"></i></span>
+            </div>
+            <p class="project-desc">
+              Zero-install, zero-cloud file sharing over your local network. Open a URL, drop a file, done. No accounts, no size limits.
+            </p>
+            <div class="project-meta"><span class="tag">Mini App</span><span class="tag">P2P</span></div>
+          </a>
+
+          <a
+            href="https://thirty11.com/tools/aws-cur-analyzer/"
+            target="_blank"
+            rel="noopener"
+            class="project-card reveal"
+            style="transition-delay: 0.4s"
+          >
+            <div class="project-card-top">
+              <span class="project-name">AWS CUR Analyzer</span>
+              <span class="project-arrow icon"><i data-lucide="arrow-up-right"></i></span>
+            </div>
+            <p class="project-desc">
+              Drop in your AWS CUR export and instantly see where your money is going - daily averages, per-service breakdown, and trend
+              lines. No AWS console required.
+            </p>
+            <div class="project-meta"><span class="tag">Mini App</span><span class="tag">AWS</span></div>
+          </a>
+
+          <a
+            href="https://thirty11.com/tools/dmarc-analyzer/"
+            target="_blank"
+            rel="noopener"
+            class="project-card reveal"
+            style="transition-delay: 0.5s"
+          >
+            <div class="project-card-top">
+              <span class="project-name">DMARC Analyzer</span>
+              <span class="project-arrow icon"><i data-lucide="arrow-up-right"></i></span>
+            </div>
+            <p class="project-desc">
+              Upload raw DMARC XML reports and get a human-readable summary - pass/fail rates, sending sources, and policy alignment. Saves
+              hours of manual XML parsing.
+            </p>
+            <div class="project-meta"><span class="tag">Mini App</span><span class="tag">Email</span><span class="tag">Security</span></div>
+          </a>
+
+          <a
+            href="https://thirty11.com/tools/email-security-score/"
+            target="_blank"
+            rel="noopener"
+            class="project-card reveal"
+            style="transition-delay: 0.6s"
+          >
+            <div class="project-card-top">
+              <span class="project-name">Email Security Score</span>
+              <span class="project-arrow icon"><i data-lucide="arrow-up-right"></i></span>
+            </div>
+            <p class="project-desc">
+              Enter a domain and get an instant security score based on SPF, DKIM, and DMARC configuration. Useful first step before any
+              email deliverability investigation.
+            </p>
+            <div class="project-meta"><span class="tag">Mini App</span><span class="tag">Security</span></div>
+          </a>
+
+          <a
+            href="https://thirty11.com/portfolio/cat/"
+            target="_blank"
+            rel="noopener"
+            class="project-card reveal"
+            style="transition-delay: 0.7s"
+          >
+            <div class="project-card-top">
+              <span class="project-name">Competitor Analysis Tool</span>
+              <span class="project-arrow icon"><i data-lucide="arrow-up-right"></i></span>
+            </div>
+            <p class="project-desc">
+              Web platform for marketplace sellers to monitor competitor pricing, download trends, and revenue patterns in real time.
+              Includes marketplace integrations to update prices and keywords, and an intelligent alerting system tracking 60,000+ products.
+            </p>
+            <div class="project-meta">
+              <span class="tag">NodeJS</span><span class="tag">ReactJS</span><span class="tag">MongoDB</span> <span class="tag">shadcn</span
+              ><span class="tag">Architect</span><span class="tag">DevOps</span>
+            </div>
+          </a>
+
+          <div class="project-card reveal" style="transition-delay: 0.8s; cursor: default">
+            <div class="project-card-top">
+              <span class="project-name">DNS Checker</span>
+              <span
+                style="
+                  font-size: 0.7rem;
+                  color: var(--muted);
+                  background: var(--tag-bg);
+                  border: 1px solid var(--border);
+                  padding: 0.15rem 0.5rem;
+                  border-radius: 0.25rem;
+                "
+                >Private</span
+              >
+            </div>
+            <p class="project-desc">
+              Internal tool for diagnosing DNS issues at scale - global propagation checks, multi-record lookups, and misconfiguration
+              detection. Built for teams that manage many domains.
+            </p>
+            <div class="project-meta">
+              <span class="tag">NodeJS</span><span class="tag">ReactJS</span><span class="tag">MongoDB</span>
+              <span class="tag">Architect</span><span class="tag">DevOps</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="wrapper">
+        <div class="section-label reveal">// experience</div>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-company">Independent Freelancer</div>
+            <div class="timeline-role">Full-Stack Engineer · Solution Architect</div>
+            <div class="timeline-date">Apr 2025 - Present</div>
+            <p class="timeline-blurb">
+              Taking on select client projects end-to-end - from scoping and architecture through to deployment and handoff. Focus on
+              Node.js / React stacks and AWS-hosted infrastructure.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-company"><a href="https://www.thinkwik.com" target="_blank" rel="noopener">Thinkwik</a></div>
+            <div class="timeline-role">Software Engineer → Project Manager</div>
+            <div class="timeline-date">Jul 2019 - Mar 2025 · 5 yrs 9 mos</div>
+            <p class="timeline-blurb">
+              Grew from IC engineer to leading a team of 8+. Owned the full lifecycle on multiple client products - requirement workshops,
+              architecture design, sprint planning, code reviews, and production deployments. Introduced CI/CD pipelines and SOPs that cut
+              release time by over 40%.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-company"><a href="http://adi-tech.co.uk" target="_blank" rel="noopener">Aditech</a></div>
+            <div class="timeline-role">Software Engineer</div>
+            <div class="timeline-date">Feb 2019 - May 2019 · 4 mos</div>
+            <p class="timeline-blurb">
+              Contract engagement building full-stack features for client-facing web applications using Node.js and React.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-company"><a href="http://gymshim.com" target="_blank" rel="noopener">Gymshim</a></div>
+            <div class="timeline-role">Software Developer</div>
+            <div class="timeline-date">Oct 2018 - Feb 2019 · 5 mos</div>
+            <p class="timeline-blurb">
+              Developed core features for a fitness-tech platform, focusing on backend APIs and mobile-facing data services.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-company"><a href="https://www.zettabyte.sg" target="_blank" rel="noopener">Zettabyte Pte Ltd</a></div>
+            <div class="timeline-role">Backend Developer</div>
+            <div class="timeline-date">Nov 2017 - Oct 2018 · 1 yr</div>
+            <p class="timeline-blurb">
+              Built and maintained backend services for enterprise clients in Singapore. Worked on high-availability Node.js APIs and
+              MongoDB data pipelines.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-company"><a href="https://www.streebo.com" target="_blank" rel="noopener">Streebo Inc</a></div>
+            <div class="timeline-role">Associate Technical Consultant</div>
+            <div class="timeline-date">Dec 2016 - Nov 2017 · 1 yr</div>
+            <p class="timeline-blurb">
+              First professional role. Delivered technical consulting and custom software solutions to enterprise clients, gaining exposure
+              to the full project lifecycle from day one.
+            </p>
+          </div>
+        </div>
+
+        <!-- Certs -->
+        <div class="section-label reveal" style="margin-top: 4rem">// certifications</div>
+        <div class="certs-grid">
+          <a
+            href="https://www.credly.com/badges/4d1b4e2c-599f-4b0e-be32-5224ecbb7e47"
+            target="_blank"
+            rel="noopener"
+            class="cert-card reveal"
+          >
+            <span class="cert-icon icon"><i data-lucide="brain-circuit"></i></span>
+            <div>
+              <div class="cert-name">AWS Certified AI Practitioner</div>
+              <div class="cert-date">
+                Issued May 2026 · Credly
+                <i data-lucide="arrow-up-right" style="display: inline-block; width: 0.7rem; height: 0.7rem; vertical-align: middle"></i>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://www.credly.com/badges/8af52bf1-c5a3-4803-ad55-46c8cdfd95eb"
+            target="_blank"
+            rel="noopener"
+            class="cert-card reveal"
+          >
+            <span class="cert-icon icon"><i data-lucide="cloud"></i></span>
+            <div>
+              <div class="cert-name">AWS Certified Cloud Practitioner</div>
+              <div class="cert-date">
+                Issued May 24, 2025 · Credly
+                <i data-lucide="arrow-up-right" style="display: inline-block; width: 0.7rem; height: 0.7rem; vertical-align: middle"></i>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://www.credly.com/badges/b35fb1da-1711-4c56-99e0-6622210d9de5"
+            target="_blank"
+            rel="noopener"
+            class="cert-card reveal"
+            style="transition-delay: 0.1s"
+          >
+            <span class="cert-icon icon"><i data-lucide="award"></i></span>
+            <div>
+              <div class="cert-name">AWS Certified Solutions Architect – Associate</div>
+              <div class="cert-date">
+                Issued Aug 06, 2025 · Credly
+                <i data-lucide="arrow-up-right" style="display: inline-block; width: 0.7rem; height: 0.7rem; vertical-align: middle"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Sulay Sumaria · <a href="mailto:sulaysumaria@gmail.com">sulaysumaria@gmail.com</a> ·
+        <a href="https://www.linkedin.com/in/sulaysumaria/" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+      <p style="margin-top: 0.5rem; opacity: 0.5">v2026.05.07</p>
+    </footer>
+
+    <script>
+      // ── Theme toggle ──
+      const html = document.documentElement;
+      const btn = document.getElementById('themeToggle');
+      const iconSun = document.getElementById('iconSun');
+      const iconMoon = document.getElementById('iconMoon');
+      const DARK = 'dark',
+        LIGHT = 'light';
+
+      function applyTheme(theme) {
+        html.setAttribute('data-theme', theme);
+        iconSun.style.display = theme === DARK ? '' : 'none';
+        iconMoon.style.display = theme === LIGHT ? '' : 'none';
+        localStorage.setItem('theme', theme);
+      }
+
+      applyTheme(localStorage.getItem('theme') || DARK);
+
+      btn.addEventListener('click', () => {
+        applyTheme(html.getAttribute('data-theme') === DARK ? LIGHT : DARK);
+      });
+
+      // ── Typewriter ──
+      const phrases = [
+        'things that ship.',
+        'APIs that scale.',
+        'real-time systems.',
+        'tools people use.',
+        'cloud-native products.',
+        'clear solutions to hard problems.',
+      ];
+      let pi = 0,
+        ci = 0,
+        deleting = false;
+      const tw = document.getElementById('typewriter');
+
+      function type() {
+        const phrase = phrases[pi];
+        if (!deleting) {
+          tw.textContent = phrase.slice(0, ++ci);
+          if (ci === phrase.length) {
+            deleting = true;
+            setTimeout(type, 1800);
+            return;
+          }
+        } else {
+          tw.textContent = phrase.slice(0, --ci);
+          if (ci === 0) {
+            deleting = false;
+            pi = (pi + 1) % phrases.length;
+          }
+        }
+        setTimeout(type, deleting ? 45 : 80);
+      }
+      setTimeout(type, 1400);
+
+      // ── Scroll reveal ──
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add('visible');
+              io.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.12 },
+      );
+      document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+      // ── Interactive dot-grid background ──
+      const canvas = document.getElementById('canvas');
+      const ctx = canvas.getContext('2d');
+
+      let W, H;
+      const SPACING = 36;
+      const RADIUS = 1.4;
+      const INFLUENCE = 130; // mouse repulsion radius
+      const MAX_PUSH = 28; // max dot displacement
+      const FLOAT_AMP = 3; // gentle float amplitude
+      const FLOAT_SPEED = 0.0008;
+
+      let mouse = { x: -9999, y: -9999 };
+      let dots = [];
+      let t = 0;
+
+      function buildDots() {
+        dots = [];
+        const cols = Math.ceil(W / SPACING) + 1;
+        const rows = Math.ceil(H / SPACING) + 1;
+        for (let r = 0; r < rows; r++) {
+          for (let c = 0; c < cols; c++) {
+            dots.push({
+              ox: c * SPACING,
+              oy: r * SPACING,
+              phase: Math.random() * Math.PI * 2,
+            });
+          }
+        }
+      }
+
+      function resize() {
+        W = canvas.width = window.innerWidth;
+        H = canvas.height = window.innerHeight;
+        buildDots();
+      }
+
+      function getAccentRgb() {
+        const theme = document.documentElement.getAttribute('data-theme');
+        return theme === 'light' ? '91,79,224' : '124,109,240';
+      }
+
+      function loop() {
+        t++;
+        ctx.clearRect(0, 0, W, H);
+        const rgb = getAccentRgb();
+
+        for (const d of dots) {
+          // Gentle float
+          const floatX = Math.sin(t * FLOAT_SPEED * 0.7 + d.phase) * FLOAT_AMP;
+          const floatY = Math.cos(t * FLOAT_SPEED + d.phase) * FLOAT_AMP;
+
+          let x = d.ox + floatX;
+          let y = d.oy + floatY;
+
+          // Mouse repulsion
+          const dx = x - mouse.x;
+          const dy = y - mouse.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          let alpha = 0.18;
+
+          if (dist < INFLUENCE) {
+            const force = 1 - dist / INFLUENCE;
+            const push = force * MAX_PUSH;
+            const angle = Math.atan2(dy, dx);
+            x += Math.cos(angle) * push;
+            y += Math.sin(angle) * push;
+            alpha = 0.18 + force * 0.55; // brighten dots near cursor
+          }
+
+          ctx.beginPath();
+          ctx.arc(x, y, RADIUS, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(${rgb},${alpha})`;
+          ctx.fill();
+        }
+
+        requestAnimationFrame(loop);
+      }
+
+      window.addEventListener('mousemove', (e) => {
+        mouse.x = e.clientX;
+        mouse.y = e.clientY;
+      });
+      window.addEventListener('mouseleave', () => {
+        mouse.x = -9999;
+        mouse.y = -9999;
+      });
+
+      // Hide scroll indicator after user scrolls past hero
+      const heroScroll = document.getElementById('heroScroll');
+      window.addEventListener(
+        'scroll',
+        () => {
+          heroScroll.style.opacity = window.scrollY > window.innerHeight * 0.6 ? '0' : '';
+          heroScroll.style.transition = 'opacity 0.4s';
+        },
+        { passive: true },
+      );
+
+      resize();
+      loop();
+      window.addEventListener('resize', resize);
+
+      // ── Init Lucide icons ──
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
