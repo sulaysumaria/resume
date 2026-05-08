@@ -22,19 +22,19 @@ Experienced IT Engineer with comprehensive expertise across all stages of the pr
 
 Below are the technologies that I prefer to work on (but not limited to)
 
-- Technologies: [NodeJS](https://nodejs.org), [ReactJS](https://react.dev), [NextJS](https://nextjs.org), [GraphQL](https://graphql.org/), [Socket.io](https://socket.io/)
+- Technologies: [NodeJS](https://nodejs.org), [ReactJS](https://react.dev), [NextJS](https://nextjs.org), [GraphQL](https://graphql.org/), [Socket.io](https://socket.io/), [Electron](https://www.electronjs.org/)
 - Languages: [Typescript](https://www.typescriptlang.org), [Javascript](https://www.javascript.com)
 - Frameworks: [ExpressJS](https://expressjs.com), [Serverless](https://www.serverless.com), [MUI](https://mui.com/), [shadcn](https://ui.shadcn.com/)
 - Databases: [MongoDB](https://www.mongodb.com), [PostgreSQL](https://www.postgresql.org/), [MySQL](https://www.mysql.com/)
-- Tools: [VS Code](https://code.visualstudio.com), [PostMan](https://www.getpostman.com), [Github](https://github.com), [draw.io](https://draw.io), [dbdiagram.io](https://dbdiagram.io)
+- Tools: [VS Code](https://code.visualstudio.com), [PostMan](https://www.getpostman.com), [Github](https://github.com), [draw.io](https://draw.io), [dbdiagram.io](https://dbdiagram.io), [n8n](https://n8n.io/)
 - Version Control System: [Git](https://git-scm.com)
-- CI/CD: [Github Actions](https://github.com/features/actions), [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines)
-- Amazon AWS Services: [EC2](https://aws.amazon.com/ec2), [Lambda](https://aws.amazon.com/lambda), [S3](https://aws.amazon.com/s3), [SQS](https://aws.amazon.com/sqs), [SES](https://aws.amazon.com/ses), [Cloudfront](https://aws.amazon.com/cloudfront), [ECS](https://aws.amazon.com/ecs), [ELB](https://aws.amazon.com/elasticloadbalancing)
+- CI/CD: [Github Actions](https://github.com/features/actions)
+- Amazon AWS Services: [EC2](https://aws.amazon.com/ec2), [Lambda](https://aws.amazon.com/lambda), [S3](https://aws.amazon.com/s3), [SQS](https://aws.amazon.com/sqs), [SES](https://aws.amazon.com/ses), [Cloudfront](https://aws.amazon.com/cloudfront), [ECS](https://aws.amazon.com/ecs), [ELB](https://aws.amazon.com/elasticloadbalancing), [Bedrock](https://aws.amazon.com/bedrock/)
 - Operating Systems (in preferred order): macOS, Linux, Windows
 
 ## Portfolio
 
-### SFM - [Link](https://app.smartfacilitylabs.com/) - [Project info](https://thirty11.com/portfolio/smart-facility-labs/)
+### SFL - [Link](https://app.smartfacilitylabs.com/) - [Project info](https://thirty11.com/portfolio/smart-facility-labs/)
 
 Smart Facility Labs is a provider of advanced, cloud-based solutions for energy, property, and asset management in commercial and residential facilities, enabling operational efficiency and real-time insights through technology integration. The platform supports everything from building management to safety and sustainability, streamlining processes for facility owners, managers, and stakeholders.
 
@@ -47,6 +47,13 @@ A platform for employee time tracking and productivity monitoring, featuring aut
 
 - Responsibilities - Solution Architect, Full stack developer, DevOps
 - Technologies - NodeJS, ReactJS, MongoDB, MUI, Electron
+
+### Competitor Analysis Tool (CAT) - (Private)
+
+Comprehensive web-based platform to monitor, analyze, and track products listed on the marketplace. Gain real-time visibility into competitor pricing, download trends, and revenue patterns.
+
+- Responsibilities - Solution Architect, Full stack developer, DevOps
+- Technologies - NodeJS, ReactJS, MongoDB, shadcn
 
 ### Thirty11 - Website - [Link](https://thirty11.com)
 
@@ -91,10 +98,11 @@ A comprehensive DNS analysis platform that enables users to verify DNS record pr
 
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/8af52bf1-c5a3-4803-ad55-46c8cdfd95eb) - Issued on May 24, 2025
 - [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/b35fb1da-1711-4c56-99e0-6622210d9de5) - Issued on August 06, 2025
+- [AWS Certified AI Practitioner - Certificate](https://www.credly.com/badges/4d1b4e2c-599f-4b0e-be32-5224ecbb7e47) - Issued on May 04, 2026
 
 ## Other Details
 
 - Spoken Languages: Gujarati, English, Hindi
 - Hobbies: Learn New Tricks, Create Blogs and Utilities, Watch Movies/TV Series, Bookmark Pages
 
-v2026.01.27
+v2026.05.07
