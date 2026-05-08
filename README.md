@@ -1,108 +1,102 @@
-# Sulay Sumaria - sulaysumaria@gmail.com
+# Sulay Sumaria - Freelance Full Stack Engineer & Solution Architect
 
-[LinkedIn](https://www.linkedin.com/in/sulaysumaria/) | [Credly](https://www.credly.com/users/sulaysumaria/)
+sulaysumaria@gmail.com | [LinkedIn](https://www.linkedin.com/in/sulaysumaria/) | [Credly](https://www.credly.com/users/sulaysumaria/)
 
-## About Me
+## About
 
-### Introduction
+Full Stack Engineer and Solution Architect with 9+ years of experience building production-grade web and desktop applications. I work independently with clients end-to-end - from requirement gathering and architecture design through development, deployment, and handoff. Currently available for freelance engagements.
 
-Experienced IT Engineer with comprehensive expertise across all stages of the project lifecycle, including requirement gathering, effort estimation, milestone planning, task creation and assignment, development, testing, deployment, and client demonstrations. Proven ability to deliver high-quality solutions while ensuring seamless project execution and client satisfaction.
+**What I bring to a project:**
 
-### Skills
-
-- Expertise in understanding client requirements and delivering tailored solutions to address pain points effectively.
-- Skilled in providing near-accurate estimates for features and requirements.
-- Proficient in designing high-level architecture for robust and scalable solutions.
-- Experienced in task planning and resource management to ensure timely project delivery.
-- Developed and implemented SOPs to streamline workflows and enhance operational efficiency.
-- Guided teams in adhering to best practices, driving quality and consistency across deliverables.
-- Proactively introduce automation to optimize processes and reduce time spent on repetitive tasks.
-
-## Technical
-
-Below are the technologies that I prefer to work on (but not limited to)
-
-- Technologies: [NodeJS](https://nodejs.org), [ReactJS](https://react.dev), [NextJS](https://nextjs.org), [GraphQL](https://graphql.org/), [Socket.io](https://socket.io/), [Electron](https://www.electronjs.org/)
-- Languages: [Typescript](https://www.typescriptlang.org), [Javascript](https://www.javascript.com)
-- Frameworks: [ExpressJS](https://expressjs.com), [Serverless](https://www.serverless.com), [MUI](https://mui.com/), [shadcn](https://ui.shadcn.com/)
-- Databases: [MongoDB](https://www.mongodb.com), [PostgreSQL](https://www.postgresql.org/), [MySQL](https://www.mysql.com/)
-- Tools: [VS Code](https://code.visualstudio.com), [PostMan](https://www.getpostman.com), [Github](https://github.com), [draw.io](https://draw.io), [dbdiagram.io](https://dbdiagram.io), [n8n](https://n8n.io/)
-- Version Control System: [Git](https://git-scm.com)
-- CI/CD: [Github Actions](https://github.com/features/actions)
-- Amazon AWS Services: [EC2](https://aws.amazon.com/ec2), [Lambda](https://aws.amazon.com/lambda), [S3](https://aws.amazon.com/s3), [SQS](https://aws.amazon.com/sqs), [SES](https://aws.amazon.com/ses), [Cloudfront](https://aws.amazon.com/cloudfront), [ECS](https://aws.amazon.com/ecs), [ELB](https://aws.amazon.com/elasticloadbalancing), [Bedrock](https://aws.amazon.com/bedrock/)
-- Operating Systems (in preferred order): macOS, Linux, Windows
+- Translating business requirements into scalable technical architecture
+- Solo or lead delivery across the full stack (frontend, backend, infrastructure)
+- AWS-certified cloud design and deployment (EC2, ECS, Lambda, S3, SQS, CloudFront, Bedrock)
+- Process automation to reduce manual overhead and operational costs
 
 ## Portfolio
 
-### SFL - [Link](https://app.smartfacilitylabs.com/) - [Project info](https://thirty11.com/portfolio/smart-facility-labs/)
+### SFL (Smart Facility Labs) - [Live](https://app.smartfacilitylabs.com/) · [Case Study](https://thirty11.com/portfolio/smart-facility-labs/)
 
-Smart Facility Labs is a provider of advanced, cloud-based solutions for energy, property, and asset management in commercial and residential facilities, enabling operational efficiency and real-time insights through technology integration. The platform supports everything from building management to safety and sustainability, streamlining processes for facility owners, managers, and stakeholders.
+Cloud-based platform for energy, property, and asset management in commercial and residential facilities. Covers building management, safety monitoring, and sustainability reporting with real-time operational insights.
 
-- Responsibilities - Solution Architect, Full stack developer
-- Technologies - NodeJS, ReactJS, MySQL
+- **Role:** Solution Architect, Full Stack Developer
+- **Stack:** NodeJS, ReactJS, MySQL
+- **Contribution:** Designed the system architecture and led full stack development from the ground up, serving 50+ facilities across 7 clients with 99.9% uptime.
 
-### SH-Tracker - [Project info](https://thirty11.com/portfolio/sh-tracker/)
+### SH-Tracker - [Case Study](https://thirty11.com/portfolio/sh-tracker/)
 
-A platform for employee time tracking and productivity monitoring, featuring automated activity logging, screenshots, and comprehensive performance reporting. Platform includes web panel and desktop apps for macOS, Windows and Linux
+Employee time tracking and productivity monitoring platform with automated activity logging, screenshot capture, and performance reporting. Ships as a web panel plus native desktop apps for macOS, Windows, and Linux.
 
-- Responsibilities - Solution Architect, Full stack developer, DevOps
-- Technologies - NodeJS, ReactJS, MongoDB, MUI, Electron
+- **Role:** Solution Architect, Full Stack Developer, DevOps
+- **Stack:** NodeJS, ReactJS, MongoDB, MUI, Electron
+- **Contribution:** Architected and built the full platform including cross-platform desktop packaging and CI/CD pipelines, used by 100+ employees.
 
-### Competitor Analysis Tool (CAT) - (Private)
+### Competitor Analysis Tool (CAT) - [Case Study](https://thirty11.com/portfolio/cat/)
 
-Comprehensive web-based platform to monitor, analyze, and track products listed on the marketplace. Gain real-time visibility into competitor pricing, download trends, and revenue patterns.
+Comprehensive web platform for marketplace sellers to monitor competitor pricing, download trends, and revenue patterns in real time. Includes direct marketplace integrations to update product prices and keywords from within the app, and an intelligent alerting system with customizable rules for competitor price changes.
 
-- Responsibilities - Solution Architect, Full stack developer, DevOps
-- Technologies - NodeJS, ReactJS, MongoDB, shadcn
+- **Role:** Solution Architect, Full Stack Developer, DevOps
+- **Stack:** NodeJS, ReactJS, MongoDB, shadcn
+- **Contribution:** Designed and built the full platform including data ingestion, analysis pipeline, dashboard, and marketplace API integrations, tracking 60,000+ products in near real time.
 
-### Thirty11 - Website - [Link](https://thirty11.com)
+### DNS Checker - Private
 
-A public website for an organization offering tailored tech solutions, including DevOps, cloud optimization, SEO, and custom software development, to help businesses streamline operations and drive growth.
+DNS analysis platform for verifying record propagation, running global lookups, and diagnosing domain configuration issues.
 
-- Responsibilities - Solution Architect, Full stack developer, DevOps
-- Technologies - NodeJS, ReactJS, MongoDB
+- **Role:** Solution Architect, Full Stack Developer, DevOps
+- **Stack:** NodeJS, ReactJS, MongoDB
+- **Contribution:** Built end-to-end from architecture to deployment, handling 5,000+ DNS lookups/day across 100+ users.
 
-### Mini-app - Wifi File Share - [Link](https://thirty11.com/tools/wifi-file-share/)
+### Thirty11 - Corporate Website - [Live](https://thirty11.com)
 
-Share files instantly between devices on the same network. No upload, no cloud - direct peer-to-peer transfer.
+Public website for a tech consultancy offering DevOps, cloud optimization, and custom software development services.
 
-### Mini-app - AWS CUR Analyzer - [Link](https://thirty11.com/tools/aws-cur-analyzer/)
+- **Role:** Solution Architect, Full Stack Developer, DevOps
+- **Stack:** NodeJS, ReactJS, MongoDB
 
-Upload AWS CUR CSV files to analyze your cloud spending, view daily averages, and get cost breakdowns by service
+### Mini-tools
 
-### Mini-app - DMARC Report Analyzer - [Link](https://thirty11.com/tools/dmarc-analyzer/)
+Self-contained browser-based utilities built and shipped independently:
 
-Upload and analyze DMARC XML reports to gain insights into your email authentication and deliverability
+| Tool                                                                     | Description                                                                          |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| [Wifi File Share](https://thirty11.com/tools/wifi-file-share/)           | Peer-to-peer file transfer between devices on the same network - no cloud, no upload |
+| [AWS CUR Analyzer](https://thirty11.com/tools/aws-cur-analyzer/)         | Upload AWS Cost & Usage Report CSVs to visualize spend by service and daily averages |
+| [DMARC Report Analyzer](https://thirty11.com/tools/dmarc-analyzer/)      | Parse and analyze DMARC XML reports to audit email authentication                    |
+| [Email Security Score](https://thirty11.com/tools/email-security-score/) | Instantly score a domain's email security posture (SPF, DKIM, DMARC)                 |
+| [JSON Size Analyzer](https://thirty11.com/tools/json-size-analyzer/)     | Analyze JSON payloads, identify optimization opportunities, and estimate compression |
 
-### Mini-app - Email security score checker - [Link](https://thirty11.com/tools/email-security-score/)
+## Technical Stack
 
-Get your Email Security Score in seconds. See how strong your email defenses are at a glance and take the first step toward safer, more secure communications.
-
-### DNS-Checker - (Private)
-
-A comprehensive DNS analysis platform that enables users to verify DNS record propagation, perform global lookups, and diagnose domain configuration issues.
-
-- Responsibilities - Solution Architect, Full stack developer, DevOps
-- Technologies - NodeJS, ReactJS, MongoDB
-
-## Experience
-
-- Professional Freelancer - Apr 2025 - Present
-- Software Engineer/Project Manager - [Thinkwik](https://www.thinkwik.com) - Jul 2019 - Mar 2025
-- Software Engineer - [Aditech](http://adi-tech.co.uk) - Feb 2019 - May 2019
-- Software Developer - [Gymshim](http://gymshim.com) - Oct 2018 - Feb 2019
-- Backend Developer - [Zettabyte Pte Ltd](https://www.zettabyte.sg) - Nov 2017 - Oct 2018
-- Associate Technical Consultant - [Streebo Inc](https://www.streebo.com) - Dec 2016 - Nov 2017
+- **Languages:** TypeScript, JavaScript
+- **Frontend:** ReactJS, NextJS, MUI, shadcn
+- **Backend:** NodeJS, ExpressJS, GraphQL, Socket.io, Serverless
+- **Desktop:** Electron (macOS, Windows, Linux)
+- **Databases:** MongoDB, PostgreSQL, MySQL
+- **AWS:** EC2, ECS, ELB, Lambda, S3, SQS, SES, CloudFront, Bedrock
+- **DevOps:** GitHub Actions, Git, n8n
+- **Design/Planning:** draw.io, dbdiagram.io
 
 ## Certifications
 
-- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/8af52bf1-c5a3-4803-ad55-46c8cdfd95eb) - Issued on May 24, 2025
-- [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/b35fb1da-1711-4c56-99e0-6622210d9de5) - Issued on August 06, 2025
-- [AWS Certified AI Practitioner - Certificate](https://www.credly.com/badges/4d1b4e2c-599f-4b0e-be32-5224ecbb7e47) - Issued on May 04, 2026
+- [AWS Certified AI Practitioner](https://www.credly.com/badges/4d1b4e2c-599f-4b0e-be32-5224ecbb7e47) - May 2026
+- [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/b35fb1da-1711-4c56-99e0-6622210d9de5) - August 2025
+- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/8af52bf1-c5a3-4803-ad55-46c8cdfd95eb) - May 2025
 
-## Other Details
+## Experience
 
-- Spoken Languages: Gujarati, English, Hindi
-- Hobbies: Learn New Tricks, Create Blogs and Utilities, Watch Movies/TV Series, Bookmark Pages
+| Role                                | Company                                       | Period              |
+| ----------------------------------- | --------------------------------------------- | ------------------- |
+| Professional Freelancer             | Independent                                   | Apr 2025 – Present  |
+| Software Engineer / Project Manager | [Thinkwik](https://www.thinkwik.com)          | Jul 2019 – Mar 2025 |
+| Software Engineer                   | [Aditech](http://adi-tech.co.uk)              | Feb 2019 – May 2019 |
+| Software Developer                  | [Gymshim](http://gymshim.com)                 | Oct 2018 – Feb 2019 |
+| Backend Developer                   | [Zettabyte Pte Ltd](https://www.zettabyte.sg) | Nov 2017 – Oct 2018 |
+| Associate Technical Consultant      | [Streebo Inc](https://www.streebo.com)        | Dec 2016 – Nov 2017 |
+
+## Other
+
+- **Languages:** Gujarati, English, Hindi
+- **Interests:** Building tools and utilities, cloud cost optimization, staying current with emerging tech
 
 v2026.05.07
