@@ -4,7 +4,7 @@ sulaysumaria@gmail.com | [LinkedIn](https://www.linkedin.com/in/sulaysumaria/) |
 
 ## About
 
-Full Stack Engineer and Solution Architect with 9+ years of experience building production-grade web and desktop applications. I work independently with clients end-to-end - from requirement gathering and architecture design through development, deployment, and handoff. Currently available for freelance engagements.
+Full Stack Engineer and Solution Architect with 10+ years of experience building production-grade web and desktop applications. I work independently with clients end-to-end - from requirement gathering and architecture design through development, deployment, and handoff. Currently available for freelance engagements.
 
 **What I bring to a project:**
 
@@ -15,7 +15,7 @@ Full Stack Engineer and Solution Architect with 9+ years of experience building 
 
 ## Portfolio
 
-### SFL (Smart Facility Labs) - [Live](https://app.smartfacilitylabs.com/) · [Case Study](https://thirty11.com/portfolio/smart-facility-labs/)
+### SFL (Smart Facility Labs) - [Live](https://smartfacilitylabs.com/) · [Case Study](https://thirty11.com/portfolio/smart-facility-labs/)
 
 Cloud-based platform for energy, property, and asset management in commercial and residential facilities. Covers building management, safety monitoring, and sustainability reporting with real-time operational insights.
 
@@ -96,7 +96,7 @@ Self-contained browser-based utilities built and shipped independently:
 
 ## Other
 
-- **Languages:** Gujarati, English, Hindi
+- **Languages:** Gujarati, Hindi, English
 - **Interests:** Building tools and utilities, cloud cost optimization, staying current with emerging tech
 
-v2026.05.07
+v2026.07.06
